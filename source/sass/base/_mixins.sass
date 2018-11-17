@@ -1,0 +1,16 @@
+// ==========================================================================
+// Media Querys
+// ==========================================================================
+
+@mixin screen($media)
+  @if $media == mobile
+    @media only screen and (min-width: $mobile)
+      @content
+
+  @else if $media == tablet
+    @media only screen and (min-width: $tablet)
+      @content
+
+  @else if $media == laptop
+    @media only screen and (min-width: $laptop)
+      @content
