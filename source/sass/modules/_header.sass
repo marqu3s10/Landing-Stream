@@ -1,9 +1,14 @@
 .nav
   &__burger
     background: $pink-2
-    padding: em(10) em(16)
-    margin: 0 em(-16) 0 auto
-    border-radius: 30px 0 0 30px
+    padding:  em(10) em(16)
+    width: 220px
+    border-radius: 30px
+    top: em(16)
+    right: em(16)
+    cursor: pointer
+    transform: translateX(em(180))
+    position: absolute
 
     &-line
       width: 25px
@@ -11,3 +16,9 @@
       border-radius: 4px
       background: $white
       margin: 4px 0
+      position: relative
+      z-index: 400
+
+  &__show
+    border-radius: 30px
+    overflow: hidden

@@ -1,2 +1,38 @@
+// ==========================================================================
+// Global
+// ==========================================================================
+
 .is-hidden
   display: none
+
+// ==========================================================================
+// Nav
+// ==========================================================================
+
+
+@keyframes slide-left
+  100%
+    transform: translateX(em(40))
+    padding: em(24)
+
+#nav__show:checked ~ .nav__burger
+  animation: slide-left 200ms ease-out forwards
+
+
+@keyframes fade-in
+  0%
+    opacity: 0
+    transform: translate(50px)
+
+  100%
+    opacity: 1
+    transform: translateX(0px)
+
+#nav__show:checked ~ .nav__burger .menu__item
+  display: block
+  animation: fade-in 200ms ease-out forwards
+
+
+.menu__link:hover
+  margin-left: em(8)
+  background: $pink-0

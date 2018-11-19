@@ -92,65 +92,65 @@
 		"oAP": "\/build\/fonts\/Roboto\/Roboto-Thin.ttf",
 		"oF": 0
 		},
-	"\/source\/images\/boy.jpg": {
-		"ft": 16384,
-		"iS": 749217,
-		"oA": 0,
-		"oAP": "\/build\/images\/boy.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 49
-		},
-	"\/source\/images\/fire.jpg": {
-		"ft": 16384,
-		"iS": 204525,
-		"oA": 0,
-		"oAP": "\/build\/images\/fire.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 55
-		},
-	"\/source\/images\/jumping.jpg": {
+	"\/source\/images\/alfabetajuega-rainbow-six-siege-1-120418.jpg": {
 		"ft": 16384,
 		"iS": 182638,
 		"oA": 0,
-		"oAP": "\/build\/images\/jumping.jpg",
+		"oAP": "\/build\/images\/alfabetajuega-rainbow-six-siege-1-120418.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 59
+		"q": 100
 		},
-	"\/source\/images\/lookGun.jpg": {
+	"\/source\/images\/c111-e51-publicimage.jpg": {
+		"ft": 16384,
+		"iS": 204525,
+		"oA": 0,
+		"oAP": "\/build\/images\/c111-e51-publicimage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/images\/r6siege.jpg": {
 		"ft": 16384,
 		"iS": 383740,
 		"oA": 0,
-		"oAP": "\/build\/images\/lookGun.jpg",
+		"oAP": "\/build\/images\/r6siege.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 59
+		"q": 100
 		},
-	"\/source\/images\/mask.jpg": {
-		"ft": 16384,
-		"iS": 901109,
-		"oA": 0,
-		"oAP": "\/build\/images\/mask.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 60
-		},
-	"\/source\/images\/trash.jpg": {
+	"\/source\/images\/rainbow-six-siege-pve-mode.jpg.optimal.jpg": {
 		"ft": 16384,
 		"iS": 171892,
 		"oA": 0,
-		"oAP": "\/build\/images\/trash.jpg",
+		"oAP": "\/build\/images\/rainbow-six-siege-pve-mode.jpg.optimal.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 59
+		"q": 100
+		},
+	"\/source\/images\/Sas_mute-Rainbow_Six_Siege_Game_Wallpaper_2560x1600.jpg": {
+		"ft": 16384,
+		"iS": 749217,
+		"oA": 0,
+		"oAP": "\/build\/images\/Sas_mute-Rainbow_Six_Siege_Game_Wallpaper_2560x1600.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/images\/video-game-gas-mask-Tom-Clancys-Rainbow-Six-Siege.jpg": {
+		"ft": 16384,
+		"iS": 901109,
+		"oA": 0,
+		"oAP": "\/build\/images\/video-game-gas-mask-Tom-Clancys-Rainbow-Six-Siege.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/jade\/about\/content.jade": {
 		"cB": 0,
@@ -351,6 +351,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/sass\/modules\/_bigName.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/css\/modules\/_bigName.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/sass\/modules\/_colors.sass": {
 		"aP": 1,
 		"bl": 0,
@@ -400,6 +413,19 @@
 		"oA": 1,
 		"oAP": "\/build\/css\/modules\/_index.css",
 		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/sass\/modules\/_menu.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/css\/modules\/_menu.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},

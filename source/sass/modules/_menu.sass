@@ -1,0 +1,20 @@
+.menu
+  font-size: rem(20)
+
+  &__item
+    margin: em(26) em(26) em(26) em(-8)
+    transform: translateX(50px)
+    display: none
+    opacity: 0
+
+    @for $i from 1 to 4
+      &:nth-child(#{$i})
+        animation-delay: $i * 80 + 100ms !important
+
+  &__link
+    margin: em(16) 0
+    padding: em(8)
+    color: $white
+    border-radius: 12px
+    white-space: nowrap
+    transition: 200ms 
