@@ -1,4 +1,23 @@
-.big-name
+section.big-name
   h1.big-name__title Lorem 
   p.big-name__sub-title Lorem ipsum dolor sit amet, consectetur adipisicing elit.
   a.big-name__button(href="#") View in Twitch
+
+section.about
+  h2.about__title About me
+  span.about__name - Lorem ipsum. -
+  
+  .about__card.card
+    .card__header
+      picture
+        source(media="(max-width: 768px)", srcset="images/about/about-face.jpg", width="100%")
+        source(media="(max-width: 1200px)", srcset="images/about/about-mobile.jpg")
+        img.card__image(src="example")
+
+    .card__body
+      .card__icon
+        include ../images/svg/console.svg
+      h3.card__title Lorem ipsum dolor.
+      p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
+      p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
+      .card__line

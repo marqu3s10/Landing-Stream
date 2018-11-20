@@ -1,44 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Ahryess</title>
-    <link rel="stylesheet" href="../../css/index.css"/>
-  </head>
-  <body>
-    <header id="header">
-      <nav id="nav" class="nav">
-        <h1 class="nav__title">Ahryess</h1>
-        <input id="nav__show" type="checkbox" class="is-hidden"/>
-        <label for="nav__show" class="nav__burger">
-          <div class="nav__burger-line"></div>
-          <div class="nav__burger-line"></div>
-          <div class="nav__burger-line"></div>
-          <ul class="nav__menu menu">
-            <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Who I am</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Item 3</a></li>
-          </ul>
-        </label>
-      </nav>
-    </header>
-    <section class="big-name">
-      <h1 class="big-name__title">Lorem </h1>
-      <p class="big-name__sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a href="#" class="big-name__button">View in Twitch</a>
-    </section>
-    <section class="about">
-      <h2 class="about__title">About me</h2><span class="about__name">- Lorem ipsum. -</span>
-      <div class="about__card card">
-        <div class="card__header">
-          <picture>
-            <source media="(max-width: 768px)" srcset="images/about/about-face.jpg" width="100%"/>
-            <source media="(max-width: 1200px)" srcset="images/about/about-mobile.jpg"/><img src="example" class="card__image"/>
-          </picture>
-        </div>
-        <div class="card__body">
-          <div class="card__icon"><?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 321.145 321.145" style="enable-background:new 0 0 321.145 321.145;" xml:space="preserve" width="512px" height="512px">
 <g>
@@ -102,16 +62,3 @@
 <g>
 </g>
 </svg>
-
-          </div>
-          <h3 class="card__title">Lorem ipsum dolor.</h3>
-          <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.</p>
-          <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.</p>
-          <div class="card__line"></div>
-        </div>
-      </div>
-    </section>
-    <footer id="footer"></footer>
-    <script src="../../js/core-min.js"></script>
-  </body>
-</html>

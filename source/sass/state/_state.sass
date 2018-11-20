@@ -8,7 +8,7 @@
 // ==========================================================================
 // Nav
 // ==========================================================================
-
+$items: 3
 
 @keyframes slide-left
   100%
@@ -16,7 +16,8 @@
     padding: em(24)
 
 #nav__show:checked ~ .nav__burger
-  animation: slide-left 200ms ease-out forwards
+  transform: translateX(em(40))
+  padding: em(24)
 
 
 @keyframes fade-in
@@ -31,6 +32,9 @@
 #nav__show:checked ~ .nav__burger .menu__item
   display: block
   animation: fade-in 200ms ease-out forwards
+
+#nav__show:checked ~ .nav__burger .menu
+  height: calc(#{$items} * 50px)
 
 
 .menu__link:hover

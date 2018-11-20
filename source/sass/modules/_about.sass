@@ -1,0 +1,26 @@
+.about
+  padding: em(32)
+  position: relative
+  color: $blue-4
+  &::before
+    content: ''
+    bottom: 100%
+    left: 0
+    width: 100vw
+    height: 20%
+    background-image: svg-to-data-uri('<svg viewBox="0 0 67.6 20.1"><g stroke-miterlimit="10"><path d="M9.8,7.6" fill="none" stroke="#000"/><path d="M33.8.6l-32 19h64z" fill="#fff" stroke="#fff"/></g></svg>')
+    background-size: 10%
+    background-repeat: repeat-x
+    background-position: center bottom
+
+  &__title
+    font-size: rem(30)
+    margin: em(24) 0 em(8)
+    text-align: center
+  &__name
+    text-align: center
+    margin-bottom: em(30)
+    display: block
+  &__card
+    background-size: cover
+    border-radius: 20px

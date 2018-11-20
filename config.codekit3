@@ -92,65 +92,75 @@
 		"oAP": "\/build\/fonts\/Roboto\/Roboto-Thin.ttf",
 		"oF": 0
 		},
-	"\/source\/images\/alfabetajuega-rainbow-six-siege-1-120418.jpg": {
+	"\/source\/images\/about\/about-face.jpeg": {
 		"ft": 16384,
-		"iS": 182638,
+		"iS": 37965,
 		"oA": 0,
-		"oAP": "\/build\/images\/alfabetajuega-rainbow-six-siege-1-120418.jpg",
+		"oAP": "\/build\/images\/about\/about-face.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 48
+		},
+	"\/source\/images\/about\/about-mobile.jpeg": {
+		"ft": 16384,
+		"iS": 122141,
+		"oA": 0,
+		"oAP": "\/build\/images\/about\/about-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/images\/c111-e51-publicimage.jpg": {
+	"\/source\/images\/hero\/hero-laptop.jpg": {
 		"ft": 16384,
-		"iS": 204525,
+		"iS": 61758,
 		"oA": 0,
-		"oAP": "\/build\/images\/c111-e51-publicimage.jpg",
+		"oAP": "\/build\/images\/hero\/hero-laptop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/images\/r6siege.jpg": {
+	"\/source\/images\/hero\/hero-mobile.jpg": {
 		"ft": 16384,
-		"iS": 383740,
+		"iS": 46136,
 		"oA": 0,
-		"oAP": "\/build\/images\/r6siege.jpg",
+		"oAP": "\/build\/images\/hero\/hero-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/images\/rainbow-six-siege-pve-mode.jpg.optimal.jpg": {
+	"\/source\/images\/hero\/hero-tablet.jpg": {
 		"ft": 16384,
-		"iS": 171892,
+		"iS": 61758,
 		"oA": 0,
-		"oAP": "\/build\/images\/rainbow-six-siege-pve-mode.jpg.optimal.jpg",
+		"oAP": "\/build\/images\/hero\/hero-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/images\/Sas_mute-Rainbow_Six_Siege_Game_Wallpaper_2560x1600.jpg": {
-		"ft": 16384,
-		"iS": 749217,
-		"oA": 0,
-		"oAP": "\/build\/images\/Sas_mute-Rainbow_Six_Siege_Game_Wallpaper_2560x1600.jpg",
+	"\/source\/images\/svg\/console.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/build\/images\/svg\/console.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
-	"\/source\/images\/video-game-gas-mask-Tom-Clancys-Rainbow-Six-Siege.jpg": {
-		"ft": 16384,
-		"iS": 901109,
-		"oA": 0,
-		"oAP": "\/build\/images\/video-game-gas-mask-Tom-Clancys-Rainbow-Six-Siege.jpg",
+	"\/source\/images\/svg\/triangles.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/images\/svg\/triangles.svg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/source\/jade\/about\/content.jade": {
 		"cB": 0,
@@ -351,6 +361,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/sass\/modules\/_about.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/css\/modules\/_about.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/sass\/modules\/_bigName.sass": {
 		"aP": 1,
 		"bl": 0,
@@ -360,6 +383,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/build\/css\/modules\/_bigName.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/sass\/modules\/_card.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/css\/modules\/_card.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -464,7 +500,8 @@
 	"creationDate": 557071082,
 	"displayValue": "Landing Stream",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-obama"
+	"iconImageName": "meme-obama",
+	"lastBuiltDate": 564407308
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
