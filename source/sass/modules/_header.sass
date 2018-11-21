@@ -1,10 +1,10 @@
 .nav
   &__burger
-    background: $pink-2
+    background: $gradient-0
     padding:  em(10) em(16)
     width: 220px
     border-radius: 30px
-    top: em(16)
+    top: em(25)
     right: em(16)
     cursor: pointer
     transform: translateX(em(180))
@@ -19,7 +19,14 @@
       margin: 4px 0
       position: relative
       z-index: 400
+      transition: 400ms 100ms
 
   &__show
     border-radius: 30px
     overflow: hidden
+  &__title
+    margin-left: em(7)
+    // margin: 0 auto
+  &__logo
+    width: 70px
+    // height: 100%

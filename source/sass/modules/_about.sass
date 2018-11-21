@@ -4,14 +4,24 @@
   color: $blue-4
   &::before
     content: ''
-    bottom: 100%
+    height: 151px
     left: 0
-    width: 100vw
-    height: 20%
-    background-image: svg-to-data-uri('<svg viewBox="0 0 67.6 20.1"><g stroke-miterlimit="10"><path d="M9.8,7.6" fill="none" stroke="#000"/><path d="M33.8.6l-32 19h64z" fill="#fff" stroke="#fff"/></g></svg>')
-    background-size: 10%
-    background-repeat: repeat-x
-    background-position: center bottom
+    bottom: calc(100% - 1px)
+    width: 100%
+    background: svg-to-data-uri('<svg width="3000" height="151" viewBox="0 0 3000 151"><path d="M2035.5 32.118c226.7-4.565 357 117.972 521.4 117.972 164.3 0 274-143.2 436.4-147.525 170-4.565-3354.883 0-2962.847 0 243.64 0 332.828 157.287 510.305 147.525 177.476-9.76 151.296-81.587 428.015-106.238 146.165-13.02 357.67 61.08 527.36 61.11 229.09.038 452.16-71.086 539.367-72.844z" fill-rule="nonzero" fill="#FFF"/></svg>') top center no-repeat
+    background-size: 155% auto
+    transform: rotate(180deg)
+
+  // &::before
+  //   content: ''
+  //   bottom: 100%
+  //   left: 0
+  //   width: 100vw
+  //   height: 20%
+  //   background-image: svg-to-data-uri('<svg viewBox="0 0 67.6 20.1"><g stroke-miterlimit="10"><path d="M9.8,7.6" fill="none" stroke="#000"/><path d="M33.8.6l-32 19h64z" fill="#fff" stroke="#fff"/></g></svg>')
+  //   background-size: 10%
+  //   background-repeat: repeat-x
+  //   background-position: center bottom
 
   &__title
     font-size: rem(30)

@@ -36,7 +36,15 @@ $items: 3
 #nav__show:checked ~ .nav__burger .menu
   height: calc(#{$items} * 50px)
 
+#nav__show:checked ~ .nav__burger
+    .nav__burger-line
+      &:nth-child(1)
+        transform: translateY(em(8)) rotate(45deg)
+      &:nth-child(2)
+        opacity: 0
+      &:nth-child(3)
+        transform: translateY(em(-8)) rotate(-45deg)
 
 .menu__link:hover
   margin-left: em(8)
-  background: $pink-0
+  background: $purple-1
