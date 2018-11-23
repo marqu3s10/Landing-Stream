@@ -1,0 +1,1 @@
+var initScroll=0,actualScroll,header=document.getElementById("header");window.addEventListener("scroll",function(l){actualScroll=window.scrollY,initScroll<actualScroll&&actualScroll>80?header.classList.add("slideUp"):actualScroll<80&&header.classList.remove("slideUp"),initScroll=actualScroll});

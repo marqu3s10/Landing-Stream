@@ -20,3 +20,21 @@
 //   }, 800);
 //   return false;
 // });
+
+var initScroll = 0;
+var actualScroll;
+var header = document.getElementById("header");
+
+window.addEventListener('scroll', function(e) {
+  actualScroll = window.scrollY;
+
+  // Scrolling down
+  if (initScroll < actualScroll && actualScroll > 80) {
+    header.classList.add("slideUp");
+
+  } else if (actualScroll < 80) {
+    header.classList.remove("slideUp");
+  }
+
+  initScroll = actualScroll;
+});

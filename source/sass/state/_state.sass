@@ -5,46 +5,7 @@
 .is-hidden
   display: none
 
-// ==========================================================================
-// Nav
-// ==========================================================================
-$items: 3
-
-@keyframes slide-left
-  100%
-    transform: translateX(em(40))
-    padding: em(24)
-
-#nav__show:checked ~ .nav__burger
-  transform: translateX(em(40))
-  padding: em(24)
-
-
-@keyframes fade-in
-  0%
-    opacity: 0
-    transform: translate(50px)
-
-  100%
-    opacity: 1
-    transform: translateX(0px)
-
-#nav__show:checked ~ .nav__burger .menu__item
-  display: block
-  animation: fade-in 200ms ease-out forwards
-
-#nav__show:checked ~ .nav__burger .menu
-  height: calc(#{$items} * 50px)
-
-#nav__show:checked ~ .nav__burger
-    .nav__burger-line
-      &:nth-child(1)
-        transform: translateY(em(8)) rotate(45deg)
-      &:nth-child(2)
-        opacity: 0
-      &:nth-child(3)
-        transform: translateY(em(-8)) rotate(-45deg)
-
-.menu__link:hover
-  margin-left: em(8)
-  background: $purple-1
+@import header
+@import bigName
+@import about
+@import form

@@ -7,7 +7,7 @@ section.about
   h2.about__title About me
   span.about__name - Lorem ipsum. -
   
-  .about__card.card
+  .card.card--special
     .card__header
       picture
         source(media="(max-width: 768px)", srcset="images/about/about-face.jpg", width="100%")
@@ -22,25 +22,42 @@ section.about
       p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
       .card__line
 
-  .card
-    .card__header
-      h3.card__title--bg Streams
+  .l-flex.l-flex--card
+    .card
+      .card__header
+        h3.card__title--bg Streams
+          .card__icon
+            include ../images/svg/mouse.svg
+      .card__body
+        p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
+        p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
+        .card__line
+    .card
+      .card__header
+        h3.card__title--bg Cosplay
         .card__icon
-          include ../images/svg/mouse.svg
-    .card__body
-      p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
-      p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
-      .card__line
-
-    
-  .card
-    .card__header
-      h3.card__title--bg Cosplay
-      .card__icon
-        include ../images/svg/cosplayer.svg
-    .card__body
-      p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
-      p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
-      .card__line
-
+          include ../images/svg/cosplayer.svg
+      .card__body
+        p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
+        p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
+        .card__line
+    .card
+      .card__header
+        h3.card__title--bg Others
+        .card__icon
+          include ../images/svg/cosplayer.svg
+      .card__body
+        p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
+        p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
+        .card__line
+      
+section.form
+  object.form__logo
+    include ../images/svg/Logo.svg
+  form.form__inner
+    h2.form__title Let's get in touch 
+    input.form__input(type="text" placeholder="Name")
+    input.form__input(type="email" placeholder="E-mail")
+    textarea.form__textarea(placeholder="Message")
+    a.form__button(href="#") Send
     

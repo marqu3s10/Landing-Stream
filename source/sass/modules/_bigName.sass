@@ -1,11 +1,12 @@
 .big-name
-  background: linear-gradient(to bottom right, rgba($blue-3, 1),rgba($blue-3, .6)), url(img(hero, hero-mobile, jpg))10%
+  background: linear-gradient(to bottom right, rgba($blue-4, 1),rgba($blue-4, .8)), url(img(hero, hero-mobile, jpg))10%
   background-size: cover
   height: 500px
   display: flex
   flex-direction: column
   justify-content: center
-  align-items: flex-start
+  align-items: center
+  text-align: center
   padding: em(16)
 
   &__title
@@ -13,7 +14,7 @@
     font-size: 12vw
 
   &__sub-title
-    font-size: 5vw
+    font-size: 4.5vw
     margin: em(3) 0
     line-height: em(24)
     font-weight: 500
@@ -22,3 +23,4 @@
     @extend %button
     font-size: 5vw
     background: $gradient-0
+    margin-top: em(25)

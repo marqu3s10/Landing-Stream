@@ -1,0 +1,33 @@
+@include screen(tablet)
+  .about
+    font-size: rem(22)
+
+    &__title
+      font-size: rem(45)
+
+  .card
+    margin: 0 em(4)
+    &--special
+      max-width: 700px
+      display: flex
+      margin: 0 auto em(36)
+
+      .card__line
+        display: none
+        margin-top: em(16)
+
+      // align-items: stretch
+
+    &__header, &__body
+      position: relative
+      flex-basis: 50%
+      overflow: hidden
+
+    &__image
+      width: auto
+      height: 100%
+      position: absolute
+
+
+    &__body
+      padding: em(16)

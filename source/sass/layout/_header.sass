@@ -1,34 +1,23 @@
 #header
-  position: absolute
+  position: fixed
   width: 100vw
-  height: 500px
   left: 0
   top: 0
-  overflow-x: hidden
+  z-index: 1000
 
 #nav
   padding: em(24) em(10)
   display: flex
   align-items: center
-  position: relative
+  transition: 200ms
 
-.card__icon
-  svg
-    position: absolute
-    width: auto
-    height: 100%
-    padding: 25px
-    bottom: 0
-    right: 0
+.l-flex
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  @include screen(tablet)
+    flex-direction: row
 
-
-  .console
-    top: 80px
-    right: -80px
-    transform: scale(.5) rotate(30deg)
-    transform-origin: top right
-    opacity: .1
-    padding: 0
-
-  .mouse
-    // top: 1px
+    &--card
+      max-width: 700px
+      margin: 0 auto
