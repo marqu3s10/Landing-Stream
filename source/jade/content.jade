@@ -12,12 +12,13 @@ section.about
       picture
         source(media="(max-width: 768px)", srcset="images/about/about-face.jpg", width="100%")
         source(media="(max-width: 1200px)", srcset="images/about/about-mobile.jpg")
-        img.card__image(src="example")
+        img.card__image--special(src="example")
 
     .card__body
       .card__icon
         include ../images/svg/console.svg
       h3.card__title Lorem ipsum dolor.
+      p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
       p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
       p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
       .card__line
@@ -51,6 +52,57 @@ section.about
         p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
         .card__line
       
+section.instagram
+  h2.instagram__title Follow me on 
+    a(href="https://www.instagram.com/ahryess/?hl=es") Instagram!
+  span.instagram__user @ahryess
+  
+  .l-flex.l-flex--card.instagram__cards
+    .card.card--instagram
+    
+      .card__header--instagram
+        h3.card__title--instagram ahryess
+        img.card__image(src="../images/instagram/example1.jpg", alt="")
+    
+      .card__body--instagram
+        p.card__text--instagram 
+          span ahryess 
+          | Happy FriYAY!!! Going live now on the test server for Rainbow Six to test those new ops!! 😍😍 I'd love if you'd come spend some time with me!! .\n.\n.\n.\n.\n.\n.\n.\n#rainbowsixsiege #r6 #r6siege #newstreamer #newstream #supportsmallstreamers #ubisoft #csgo #r6stream #tomclancy #tomclancysrainbowsixsiege #cosplay #cosplayer #cosplays #femalestreamer #femalecosplay #girlgamer #gamergirl #runescape #monsterhunterworld
+          
+        span.card__more(onclick="showDescription(this)") ...more
+        span.card__date 2018-11-21
+        a.card__button View
+    .card.card--instagram
+    
+      .card__header--instagram
+        h3.card__title--instagram ahryess
+        img.card__image(src="../images/instagram/example1.jpg", alt="")
+    
+      .card__body--instagram
+        p.card__text--instagram 
+          span ahryess 
+          | Happy FriYAY!!! Going live now on the test server for Rainbow Six to test those new ops!! 😍😍 I'd love if you'd come spend some time with me!! .\n.\n.\n.\n.\n.\n.\n.\n#rainbowsixsiege #r6 #r6siege #newstreamer #newstream #supportsmallstreamers #ubisoft #csgo #r6stream #tomclancy #tomclancysrainbowsixsiege #cosplay #cosplayer #cosplays #femalestreamer #femalecosplay #girlgamer #gamergirl #runescape #monsterhunterworld
+          
+        span.card__more(onclick="showDescription(this)") ...more
+        span.card__date 2018-11-21
+        a.card__button View
+    .card.card--instagram
+    
+      .card__header--instagram
+        h3.card__title--instagram ahryess
+        img.card__image(src="../images/instagram/example1.jpg", alt="")
+    
+      .card__body--instagram
+        p.card__text--instagram 
+          span ahryess 
+          | Happy FriYAY!!! Going live now on the test server for Rainbow Six to test those new ops!! 😍😍 I'd love if you'd come spend some time with me!! .\n.\n.\n.\n.\n.\n.\n.\n#rainbowsixsiege #r6 #r6siege #newstreamer #newstream #supportsmallstreamers #ubisoft #csgo #r6stream #tomclancy #tomclancysrainbowsixsiege #cosplay #cosplayer #cosplays #femalestreamer #femalecosplay #girlgamer #gamergirl #runescape #monsterhunterworld
+          
+        span.card__more(onclick="showDescription(this)") ...more
+        span.card__date 2018-11-21
+        a.card__button View
+        
+  
+    
 section.form
   object.form__logo
     include ../images/svg/Logo.svg

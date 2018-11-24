@@ -38,3 +38,16 @@ window.addEventListener('scroll', function(e) {
 
   initScroll = actualScroll;
 });
+
+// document.querySelector("card__more").addEventListener("click", showDescription);
+
+
+function showDescription(element){
+  if(element.innerHTML == "...more"){
+    element.innerHTML = "...less"
+    element.previousSibling.classList.add('card__text--full');
+  } else {
+    element.innerHTML = "...more"
+    element.previousSibling.classList.remove('card__text--full');
+  }
+}

@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:700,800");
-.big-name__button, .form__button {
+.big-name__button, .card__button, .form__button {
   padding: 0.875em 1.5em;
   margin: 0.625em 0;
   color: #fff;
   border-radius: 999px;
-  background: #F2006E; }
+  background: -webkit-gradient(linear, left top, right bottom, from(#EF2883), to(#8D33DF));
+  background: linear-gradient(to bottom right, #EF2883, #8D33DF); }
 
 body {
   color: #fff;
@@ -34,7 +35,8 @@ input {
 
 a {
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+  color: #fff; }
 
 *::after, *::before {
   display: block;
@@ -65,18 +67,23 @@ a {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+          flex-direction: column; }
   @media only screen and (min-width: 768px) {
     .l-flex {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
-              flex-direction: row; }
+              flex-direction: row;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
       .l-flex--card {
-        max-width: 700px;
+        max-width: 1200px;
         margin: 0 auto; } }
 
 .card__icon svg {
@@ -220,20 +227,25 @@ a {
 
 .card {
   max-width: 350px;
-  margin: 0 auto 2.25em;
+  width: 100%;
+  margin: 1.125em auto;
   overflow: hidden;
   border-radius: 12px;
   -webkit-box-shadow: 0 7px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0 7px 30px rgba(0, 0, 0, 0.1);
-  background: #fff; }
+  background: #fff;
+  text-align: left;
+  color: #161362; }
   .card__header {
     position: relative; }
   .card__image {
     width: 100%; }
-  .card__body {
+  .card__body, .card__body--instagram {
     padding: 1.5em 2em;
     position: relative; }
-  .card__title, .card__title--bg {
+    .card__body--instagram {
+      padding: 0 1em; }
+  .card__title, .card__title--bg, .card__title--instagram {
     margin: 1em 0;
     font-size: 1.375rem; }
     .card__title--bg {
@@ -242,11 +254,39 @@ a {
       background: -webkit-gradient(linear, left top, right bottom, from(#EF2883), to(#8D33DF));
       background: linear-gradient(to bottom right, #EF2883, #8D33DF);
       color: #fff; }
-  .card__text {
+    .card__title--instagram {
+      margin: 0;
+      padding: 1em 1em 1em 3.4375em;
+      color: currentColor;
+      font-weight: 400;
+      font-size: 1em;
+      border-bottom: 1px solid #ccc;
+      position: relative; }
+      .card__title--instagram::before {
+        content: "";
+        background: url(../images/instagram/profile.jpg) center no-repeat;
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        left: 12px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%); }
+  .card__text, .card__text--instagram {
     margin: 1em 0;
-    font-size: 1rem;
+    font-size: 0.875rem;
     color: rgba(22, 19, 98, 0.7);
-    line-height: 1.25rem; }
+    line-height: 1.25rem;
+    -webkit-transition-duration: 600ms;
+            transition-duration: 600ms; }
+    .card__text--instagram {
+      max-height: 100px;
+      width: 100%;
+      overflow-y: auto;
+      color: rgba(18, 16, 81, 0.7); }
+      .card__text--instagram span {
+        font-weight: 600; }
   .card__line {
     width: 100px;
     height: 5px;
@@ -254,6 +294,22 @@ a {
     background: -webkit-gradient(linear, left top, right bottom, from(#EF2883), to(#8D33DF));
     background: linear-gradient(to bottom right, #EF2883, #8D33DF);
     margin: 2.5em auto 0; }
+  .card__more, .card__date {
+    color: rgba(22, 19, 98, 0.5);
+    margin-top: -5px;
+    cursor: pointer;
+    display: block;
+    float: right; }
+  .card__date {
+    float: left;
+    font-size: 0.875rem; }
+  .card__button {
+    display: block;
+    text-align: center;
+    border-radius: 9px;
+    clear: both;
+    margin: 3.25em 0 1em;
+    padding: 1.25em; }
 
 .form {
   background: #161362;
@@ -311,6 +367,18 @@ a {
     background: linear-gradient(to bottom right, #EF2883, #8D33DF); }
   .form__title {
     margin: 0.625em 0 1.875em; }
+
+.instagram {
+  text-align: center;
+  padding: 2em 1em; }
+  .instagram__title {
+    font-size: 1.875rem;
+    margin: 0.625em; }
+  .instagram__user {
+    font-size: 1.25rem;
+    padding: 0.3125em; }
+  .instagram__cards {
+    margin: 1.875em 0; }
 
 .is-hidden {
   display: none; }
@@ -389,6 +457,9 @@ a {
   .big-name__button {
     font-size: 1.25rem; } }
 
+.card__text--full {
+  max-height: 500px; }
+
 @media only screen and (min-width: 768px) {
   .about {
     font-size: 1.375rem; }
@@ -405,15 +476,60 @@ a {
       .card--special .card__line {
         display: none;
         margin-top: 1em; }
-    .card__header, .card__body {
+    .card--instagram {
       position: relative;
+      max-width: none;
+      height: 450px;
+      max-width: 800px;
+      display: -ms-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      margin: 2em 0.5em; }
+    .card__body--instagram, .card__header--instagram {
+      position: static;
+      padding: 0 0 0 64%; }
+    .card__body--instagram {
+      display: -ms-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      height: 100%;
+      padding: 1em 1em 1em calc(64% + 16px); }
+    .card__header--special, .card__body--special {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
       overflow: hidden; }
     .card__image {
-      width: auto;
-      height: 100%;
-      position: absolute; }
-    .card__body {
-      padding: 1em; } }
+      position: absolute;
+      display: block;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+      width: 64%;
+      height: auto;
+      border-right: 1px solid #ccc; }
+      .card__image--special {
+        width: auto;
+        height: 100%;
+        position: absolute; }
+    .card__text--instagram {
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      max-height: none; }
+    .card__date {
+      display: block; }
+    .card__more, .card__date {
+      display: none; }
+    .card__button {
+      margin: 0; } }
 /*# sourceMappingURL=index.css.map */
