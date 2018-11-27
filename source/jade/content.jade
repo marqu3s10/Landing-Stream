@@ -8,13 +8,13 @@ section.about
   span.about__name - Lorem ipsum. -
   
   .card.card--special
-    .card__header
+    .card__header--special
       picture
-        source(media="(max-width: 768px)", srcset="images/about/about-face.jpg", width="100%")
+        source(media="(max-width: 767px)", srcset="images/about/about-face.jpg", width="100%")
         source(media="(max-width: 1200px)", srcset="images/about/about-mobile.jpg")
-        img.card__image--special(src="example")
+        img.card__image--special(src="images/about/about-mobile.jpg")
 
-    .card__body
+    .card__body--special
       .card__icon
         include ../images/svg/console.svg
       h3.card__title Lorem ipsum dolor.
@@ -24,7 +24,7 @@ section.about
       .card__line
 
   .l-flex.l-flex--card
-    .card
+    .card.card--small
       .card__header
         h3.card__title--bg Streams
           .card__icon
@@ -33,7 +33,7 @@ section.about
         p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
         p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
         .card__line
-    .card
+    .card.card--small
       .card__header
         h3.card__title--bg Cosplay
         .card__icon
@@ -42,7 +42,7 @@ section.about
         p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
         p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
         .card__line
-    .card
+    .card.card--small
       .card__header
         h3.card__title--bg Others
         .card__icon
@@ -57,12 +57,12 @@ section.instagram
     a(href="https://www.instagram.com/ahryess/?hl=es") Instagram!
   span.instagram__user @ahryess
   
-  .l-flex.l-flex--card.instagram__cards
+  .l-flex.l-flex--column
     .card.card--instagram
     
       .card__header--instagram
         h3.card__title--instagram ahryess
-        img.card__image(src="../images/instagram/example1.jpg", alt="")
+        img.card__image--instagram(src="../images/instagram/example1.jpg", alt="")
     
       .card__body--instagram
         p.card__text--instagram 
@@ -76,7 +76,7 @@ section.instagram
     
       .card__header--instagram
         h3.card__title--instagram ahryess
-        img.card__image(src="../images/instagram/example1.jpg", alt="")
+        img.card__image--instagram(src="../images/instagram/example1.jpg", alt="")
     
       .card__body--instagram
         p.card__text--instagram 
@@ -90,7 +90,7 @@ section.instagram
     
       .card__header--instagram
         h3.card__title--instagram ahryess
-        img.card__image(src="../images/instagram/example1.jpg", alt="")
+        img.card__image--instagram(src="../images/instagram/example1.jpg", alt="")
     
       .card__body--instagram
         p.card__text--instagram 
@@ -100,8 +100,13 @@ section.instagram
         span.card__more(onclick="showDescription(this)") ...more
         span.card__date 2018-11-21
         a.card__button View
-        
+    
+section.stream
+  h2.stream__title Live
+  span.stream__sub-title Lorem ipsum dolor sit.
   
+  .stream__window
+    <iframe  src="https://player.twitch.tv/?channel=ahryess" width="640" height="360"  frameborder="0"   allowfullscreen="true"></iframe>
     
 section.form
   object.form__logo

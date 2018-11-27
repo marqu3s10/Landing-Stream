@@ -1,10 +1,17 @@
 @include screen(mobile)
   .big-name
     &__title
-      font-size: rem(50)
+      font-size: em(50)
 
     &__sub-title
-      font-size: rem(18)
+      font-size: em(18)
 
     &__button
       font-size: rem(20)
+
+@include screen(tablet)
+  .big-name
+    background: linear-gradient(to bottom right, rgba($blue-4, 1),rgba($blue-4, .8)), url(img(hero, hero-tablet, jpg)) center right
+    background-size: cover
+    height: 700px
+    font-size: rem(24)

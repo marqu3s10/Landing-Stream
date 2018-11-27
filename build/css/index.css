@@ -64,6 +64,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -74,17 +75,26 @@ a {
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
       -webkit-box-align: start;
           -ms-flex-align: start;
               align-items: flex-start;
       -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
+          flex-wrap: wrap;
+      max-width: 900px; }
       .l-flex--card {
-        max-width: 1200px;
-        margin: 0 auto; } }
+        margin-bottom: -120px; }
+      .l-flex--column {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        max-width: 900px;
+        -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+                align-items: stretch; } }
 
 .card__icon svg {
   position: absolute;
@@ -116,8 +126,8 @@ a {
   top: 1.5625em;
   right: 1em;
   cursor: pointer;
-  -webkit-transform: translateX(11.25em);
-          transform: translateX(11.25em);
+  -webkit-transform: translateX(180px);
+          transform: translateX(180px);
   position: absolute;
   -webkit-transition: 400ms;
   transition: 400ms; }
@@ -202,7 +212,7 @@ a {
     margin-top: 1.5625em; }
 
 .about {
-  padding: 2em;
+  padding: 3.75em 2em;
   position: relative;
   color: #161362;
   background: #fff; }
@@ -210,7 +220,7 @@ a {
     content: '';
     height: 151px;
     left: 0;
-    bottom: calc(100% - 1px);
+    bottom: calc(100% - 3px);
     width: 100%;
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'  width='3000' height='151' viewBox='0 0 3000 151'%3E%3Cpath d='M2035.5 32.118c226.7-4.565 357 117.972 521.4 117.972 164.3 0 274-143.2 436.4-147.525 170-4.565-3354.883 0-2962.847 0 243.64 0 332.828 157.287 510.305 147.525 177.476-9.76 151.296-81.587 428.015-106.238 146.165-13.02 357.67 61.08 527.36 61.11 229.09.038 452.16-71.086 539.367-72.844z' fill-rule='nonzero' fill='%23fff'/%3E%3C/svg%3E") top center no-repeat;
     background-size: 155% auto;
@@ -230,19 +240,23 @@ a {
   width: 100%;
   margin: 1.125em auto;
   overflow: hidden;
-  border-radius: 12px;
-  -webkit-box-shadow: 0 7px 30px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 7px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 17px;
+  -webkit-box-shadow: 0 7px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 7px 30px rgba(0, 0, 0, 0.2);
   background: #fff;
   text-align: left;
   color: #161362; }
   .card__header {
     position: relative; }
-  .card__image {
-    width: 100%; }
-  .card__body, .card__body--instagram {
-    padding: 1.5em 2em;
-    position: relative; }
+  .card__image--instagram {
+    width: 70%;
+    margin: 0 auto;
+    display: block; }
+  .card__body {
+    padding: 2em; }
+    .card__body--special, .card__body--instagram {
+      padding: 1.5em 2em;
+      position: relative; }
     .card__body--instagram {
       padding: 0 1em; }
   .card__title, .card__title--bg, .card__title--instagram {
@@ -253,14 +267,15 @@ a {
       padding: 1.5em 2rem;
       background: -webkit-gradient(linear, left top, right bottom, from(#EF2883), to(#8D33DF));
       background: linear-gradient(to bottom right, #EF2883, #8D33DF);
-      color: #fff; }
+      color: #fff;
+      border-radius: 17px 17px 0 0; }
     .card__title--instagram {
       margin: 0;
       padding: 1em 1em 1em 3.4375em;
       color: currentColor;
       font-weight: 400;
       font-size: 1em;
-      border-bottom: 1px solid #ccc;
+      border-bottom: 1px solid #eee;
       position: relative; }
       .card__title--instagram::before {
         content: "";
@@ -275,13 +290,14 @@ a {
                 transform: translateY(-50%); }
   .card__text, .card__text--instagram {
     margin: 1em 0;
-    font-size: 0.875rem;
+    font-size: 1rem;
     color: rgba(22, 19, 98, 0.7);
     line-height: 1.25rem;
     -webkit-transition-duration: 600ms;
             transition-duration: 600ms; }
     .card__text--instagram {
       max-height: 100px;
+      font-size: 0.875rem;
       width: 100%;
       overflow-y: auto;
       color: rgba(18, 16, 81, 0.7); }
@@ -294,22 +310,24 @@ a {
     background: -webkit-gradient(linear, left top, right bottom, from(#EF2883), to(#8D33DF));
     background: linear-gradient(to bottom right, #EF2883, #8D33DF);
     margin: 2.5em auto 0; }
-  .card__more, .card__date {
+  .card__more {
     color: rgba(22, 19, 98, 0.5);
     margin-top: -5px;
     cursor: pointer;
     display: block;
-    float: right; }
+    float: right;
+    font-size: 0.8125rem; }
   .card__date {
     float: left;
-    font-size: 0.875rem; }
+    color: rgba(22, 19, 98, 0.5);
+    font-size: 0.8125rem; }
   .card__button {
     display: block;
     text-align: center;
     border-radius: 9px;
     clear: both;
     margin: 3.25em 0 1em;
-    padding: 1.25em; }
+    padding: 1em; }
 
 .form {
   background: #161362;
@@ -370,15 +388,65 @@ a {
 
 .instagram {
   text-align: center;
-  padding: 2em 1em; }
+  padding: 3.125em 2em; }
   .instagram__title {
     font-size: 1.875rem;
     margin: 0.625em; }
   .instagram__user {
     font-size: 1.25rem;
-    padding: 0.3125em; }
+    padding: 0.3125em;
+    margin-bottom: 2em;
+    display: block; }
   .instagram__cards {
     margin: 1.875em 0; }
+
+.stream {
+  text-align: center;
+  padding: 3.875em 0.9375em;
+  background: #080722;
+  position: relative;
+  z-index: 40;
+  max-height: 820px; }
+  .stream::after {
+    content: '';
+    left: 50%;
+    top: 0;
+    width: 100%;
+    max-width: 700px;
+    padding-bottom: 40%;
+    height: 0;
+    z-index: -100;
+    opacity: .5;
+    -webkit-transform: rotate(0deg) translate(-50%, -50%);
+            transform: rotate(0deg) translate(-50%, -50%);
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'  id='Layer_1' data-name='Layer 1' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 138.05 52.18'%3E%3Cdefs%3E%3ClinearGradient id='linear-gradient' x1='17.93' y1='13.33' x2='19.08' y2='49.26' gradientTransform='translate(-8.2 14.07) rotate(-36.37)' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%238d33df' stop-opacity='0.8'/%3E%3Cstop offset='1' stop-color='%23ef2883' stop-opacity='0.8'/%3E%3C/linearGradient%3E%3ClinearGradient id='linear-gradient-2' x1='42.27' y1='-26.33' x2='79.76' y2='-23.25' gradientTransform='translate(9.17 10.85) rotate(38.34)' xlink:href='%23linear-gradient'/%3E%3ClinearGradient id='linear-gradient-3' x1='106.83' y1='22.24' x2='122.24' y2='45.45' gradientTransform='translate(-2.65 8.78) rotate(-7)' xlink:href='%23linear-gradient'/%3E%3C/defs%3E%3Ctitle%3EiconsStream%3C/title%3E%3Cpath d='M21.06,38.25,36.12,27.16a3.35,3.35,0,0,0-.61-5.75L18.12,13.57A3.35,3.35,0,0,0,13.42,17L15.75,36A3.35,3.35,0,0,0,21.06,38.25Z' style='fill:url(%23linear-gradient)'/%3E%3Cpath d='M80.22,29.58,74.93,25.4l4.17-5.28a4.21,4.21,0,0,0-.69-5.92h0a4.2,4.2,0,0,0-5.92.69l-4.17,5.27L63.06,16a4.22,4.22,0,0,0-5.93.69h0a4.21,4.21,0,0,0,.7,5.92l5.25,4.16-4.17,5.27A4.24,4.24,0,0,0,59.6,38h0a4.23,4.23,0,0,0,5.93-.69L69.7,32,75,36.2a4.21,4.21,0,0,0,5.92-.7h0A4.21,4.21,0,0,0,80.22,29.58Z' style='fill:url(%23linear-gradient-2)'/%3E%3Ccircle cx='113.07' cy='25.99' r='10.78' style='fill:url(%23linear-gradient-3)'/%3E%3C/svg%3E") center no-repeat;
+    background-size: 60%; }
+  .stream__title {
+    font-size: 1.875rem;
+    margin: 0.625em; }
+  .stream__sub-title {
+    font-size: 1.25rem;
+    padding: 0.3125em;
+    margin-bottom: 2em;
+    display: block; }
+  .stream__window {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    padding-top: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 15px; }
+    .stream__window iframe,
+    .stream__window object,
+    .stream__window embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      max-height: 530px; }
 
 .is-hidden {
   display: none; }
@@ -451,11 +519,19 @@ a {
 
 @media only screen and (min-width: 425px) {
   .big-name__title {
-    font-size: 3.125rem; }
+    font-size: 3.125em; }
   .big-name__sub-title {
-    font-size: 1.125rem; }
+    font-size: 1.125em; }
   .big-name__button {
     font-size: 1.25rem; } }
+
+@media only screen and (min-width: 768px) {
+  .big-name {
+    background: -webkit-gradient(linear, left top, right bottom, from(#161362), to(rgba(22, 19, 98, 0.8))), url("../images/hero/hero-tablet.jpg") center right;
+    background: linear-gradient(to bottom right, #161362, rgba(22, 19, 98, 0.8)), url("../images/hero/hero-tablet.jpg") center right;
+    background-size: cover;
+    height: 700px;
+    font-size: 1.5rem; } }
 
 .card__text--full {
   max-height: 500px; }
@@ -466,22 +542,39 @@ a {
     .about__title {
       font-size: 2.8125rem; }
   .card {
-    margin: 0 0.25em; }
+    margin: 0 0.25em;
+    max-width: 900px; }
+    .card--small {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 1 calc(33% - 9px);
+              flex: 1 1 calc(33% - 9px);
+      max-width: 250px;
+      position: relative;
+      overflow: visible; }
+      .card--small::before, .card--small::after {
+        content: '';
+        width: 20px;
+        height: 20px;
+        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'  version='1.1' id='Layer_1' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px'	 viewBox='0 0 18.2 18.2' style='enable-background:new 0 0 18.2 18.2;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E	.st0{fill:%23FFFFFF;}%3C/style%3E%3Cg%3E	%3Cpath class='st0' d='M0,0c10.1,0,18.2,8.2,18.2,18.2V0H0'/%3E%3C/g%3E%3C/svg%3E") top center no-repeat;
+        bottom: 17px;
+        z-index: -1; }
+      .card--small::before {
+        left: calc(-20px + 1px); }
+      .card--small::after {
+        right: calc(-20px + 1px);
+        -webkit-transform: rotateY(180deg);
+                transform: rotateY(180deg); }
     .card--special {
-      max-width: 700px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       margin: 0 auto 2.25em; }
       .card--special .card__line {
-        display: none;
-        margin-top: 1em; }
+        display: none; }
     .card--instagram {
       position: relative;
-      max-width: none;
       height: 450px;
-      max-width: 800px;
-      display: -ms-flex;
+      width: 100%;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -490,46 +583,63 @@ a {
           -ms-flex-direction: column;
               flex-direction: column;
       margin: 2em 0.5em; }
-    .card__body--instagram, .card__header--instagram {
-      position: static;
+    .card__header--special {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 40%;
+              flex: 0 1 40%; }
+    .card__header--instagram {
       padding: 0 0 0 64%; }
-    .card__body--instagram {
-      display: -ms-flex;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      height: 100%;
-      padding: 1em 1em 1em calc(64% + 16px); }
-    .card__header--special, .card__body--special {
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%;
-      overflow: hidden; }
-    .card__image {
+    .card__body {
+      padding: 1em; }
+      .card__body--special, .card__body--instagram {
+        padding: 1.875em;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 60%;
+                flex: 1 1 60%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+      .card__body--instagram {
+        padding: 0 0 0 64%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        height: 100%;
+        padding: 1em 1em 1em calc(64% + 16px); }
+    .card__image--instagram {
       position: absolute;
-      display: block;
-      overflow: hidden;
       top: 0;
       left: 0;
       width: 64%;
       height: auto;
-      border-right: 1px solid #ccc; }
-      .card__image--special {
-        width: auto;
-        height: 100%;
-        position: absolute; }
+      border-right: 1px solid #eee; }
+    .card__image--special {
+      height: auto;
+      width: 100%;
+      vertical-align: middle; }
     .card__text--instagram {
       -webkit-box-flex: 1;
           -ms-flex-positive: 1;
               flex-grow: 1;
       max-height: none; }
     .card__date {
-      display: block; }
-    .card__more, .card__date {
+      margin-bottom: 5px; }
+    .card__more {
       display: none; }
     .card__button {
       margin: 0; } }
+
+@media only screen and (min-width: 768px) {
+  .instagram {
+    margin-top: 100px; }
+    .instagram__title {
+      font-size: 2.8125rem; } }
 /*# sourceMappingURL=index.css.map */

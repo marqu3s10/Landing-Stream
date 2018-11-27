@@ -3,24 +3,31 @@
   width: 100%
   margin: em(18) auto
   overflow: hidden
-  border-radius: 12px
-  box-shadow: 0 7px 30px rgba(#000000,.1)
+  border-radius: 17px
+  box-shadow: 0 7px 30px rgba(#000000,.2)
   background: $white
   text-align: left
   color: $blue-4
 
   &__header
     position: relative
-
   &__image
-    width: 100%
-
-  &__body
-    padding: em(24) em(32)
-    position: relative
 
     &--instagram
-      @extend .card__body
+      width: 70%
+      margin: 0 auto
+      display: block
+
+  &__body
+    
+    padding: em(32)
+
+    &--special
+      padding: em(24) em(32)
+      position: relative
+
+    &--instagram
+      @extend .card__body--special
       padding: 0 em(16)
 
   &__title
@@ -33,6 +40,7 @@
       padding: em(24) rem(32)
       background: $gradient-0
       color: $white
+      border-radius: 17px 17px 0 0
 
 
     &--instagram
@@ -42,7 +50,7 @@
       color: currentColor
       font-weight: 400
       font-size: em(16)
-      border-bottom: 1px solid #ccc
+      border-bottom: 1px solid #eee
       position: relative
 
       &::before
@@ -58,7 +66,7 @@
 
   &__text
     margin: em(16) 0
-    font-size: rem(14)
+    font-size: rem(16)
     color: transparentize($blue-4, .3)
     line-height: rem(20)
     transition-duration: 600ms
@@ -66,12 +74,12 @@
     &--instagram
       @extend .card__text
       max-height: 100px
+      font-size: rem(14)
       width: 100%
       overflow-y: auto
       color: darken(rgba($blue-4, .7), 4%)
       span
         font-weight: 600
-
 
   &__line
     width: 100px
@@ -85,13 +93,14 @@
     margin-top: -5px
     cursor: pointer
     display: block
-    // width: 80px
     float: right
+    font-size: rem(13)
 
   &__date
-    @extend .card__more
     float: left
-    font-size: rem(14)
+    color: rgba($blue-4, .5)
+
+    font-size: rem(13)
 
   &__button
     @extend %button
@@ -100,4 +109,6 @@
     border-radius: 9px
     clear: both
     margin: em(52) 0 em(16)
-    padding: em(20)
+    padding: em(16)
+
+  &__icon
