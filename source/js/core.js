@@ -21,25 +21,35 @@
 //   return false;
 // });
 
-var initScroll = 0;
-var actualScroll;
 var header = document.getElementById("header");
 
 window.addEventListener('scroll', function(e) {
-  actualScroll = window.scrollY;
+  var wScroll = window.scrollY;
 
-  // Scrolling down
-  if (initScroll < actualScroll && actualScroll > 80) {
+  // Sticky nav
+  if (wScroll > 80) {
     header.classList.add("slideUp");
 
-  } else if (actualScroll < 80) {
+  } else if (wScroll < 80) {
     header.classList.remove("slideUp");
   }
 
-  initScroll = actualScroll;
+  // test 1
+
+  var about = document.querySelector(".about");
+  var cards = document.querySelectorAll(".card");
+  if((window.innerHeight / 1.2) > about.getBoundingClientRect().top){
+
+    Array.prototype.forEach.call(cards, function(el, i){
+      setTimeout(function(){
+        el.classList.add('is-showing');
+      }, 250 * (i+1))
+    });
+
+  }
+
 });
 
-// document.querySelector("card__more").addEventListener("click", showDescription);
 
 
 function showDescription(element){

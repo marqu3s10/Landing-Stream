@@ -1,7 +1,7 @@
 .stream
   text-align: center
   padding: em(62) em(15)
-  background: darken($blue-4, 15%)
+  background: darken($blue, 15%)
   position: relative
   z-index: 40
   max-height: 820px
@@ -32,13 +32,15 @@
 
   &__window
     position: relative
-    padding-bottom: 56.25%
-    height: 0
-    overflow: hidden
     padding-top: 30px
     max-width: 900px
     margin: 0 auto
-    border-radius: 15px
+
+    &::before
+      content: ''
+      position: static
+      padding-bottom: 56.25%
+
 
     & iframe,
     & object,
@@ -48,5 +50,10 @@
       left: 0
       width: 100%
       height: 100%
-      max-height: 530px
-    // padding-bottom: 50%
+      max-height: 506px
+
+    #video-playback
+      border-radius: 17px !important
+      overflow: hidden !important
+
+// Rounded corners stream

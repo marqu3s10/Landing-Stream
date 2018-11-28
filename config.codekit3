@@ -2,23 +2,6 @@
 "AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
 "buildSteps": [
 	{
-		"itemsToProcess": [
-			"\/source\/images\/svg\/Logo.svg",
-			"\/source\/images\/svg\/console.svg",
-			"\/source\/images\/svg\/cosplayer.svg",
-			"\/source\/images\/svg\/headphones.svg",
-			"\/source\/images\/svg\/joystick.svg",
-			"\/source\/images\/svg\/mouse.svg",
-			"\/source\/images\/svg\/pacman-ghost.svg",
-			"\/source\/images\/svg\/pacman.svg",
-			"\/source\/images\/svg\/triangles.svg",
-			"\/source\/images\/svg\/wave.svg"
-			],
-		"name": "New \"Process Certain Files\" Step",
-		"stepType": 0,
-		"uuidString": "E9D19EC3-2978-4644-8D27-6C8898700E5B"
-		},
-	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
 		"uuidString": "4EBC3F82-0EF2-4CA6-B1C8-CE3C0295718D"

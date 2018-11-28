@@ -1,5 +1,5 @@
 .form
-  background: $blue-4
+  background: $blue
   padding: em(16)
   text-align: center
   position: relative
@@ -25,7 +25,9 @@
     z-index: 1
 
   &__inner
-    background: lighten($blue-4, 3%)
+    background: lighten($blue, 3%)
+    background: #0d0849
+    background: darken($blue, 6%)
     margin: em(45) auto
     padding: em(32)
     max-width: 350px
@@ -36,7 +38,7 @@
 
   &__input, &__textarea
     display: block
-    background: $blue-4
+    background: $blue
     border-radius: 25px
     margin: em(32) 0
     padding: em(16) em(24)

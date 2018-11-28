@@ -7,7 +7,7 @@ section.about
   h2.about__title About me
   span.about__name - Lorem ipsum. -
   
-  .card.card--special
+  .card.card--special.not-visible
     .card__header--special
       picture
         source(media="(max-width: 767px)", srcset="images/about/about-face.jpg", width="100%")
@@ -17,14 +17,14 @@ section.about
     .card__body--special
       .card__icon
         include ../images/svg/console.svg
-      h3.card__title Lorem ipsum dolor.
+      h3.card__title--special Lorem ipsum dolor.
       p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
       p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
       p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
       .card__line
 
   .l-flex.l-flex--card
-    .card.card--small
+    .card.card--small.not-visible
       .card__header
         h3.card__title--bg Streams
           .card__icon
@@ -33,7 +33,7 @@ section.about
         p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
         p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
         .card__line
-    .card.card--small
+    .card.card--small.not-visible
       .card__header
         h3.card__title--bg Cosplay
         .card__icon
@@ -42,7 +42,7 @@ section.about
         p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
         p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
         .card__line
-    .card.card--small
+    .card.card--small.not-visible
       .card__header
         h3.card__title--bg Others
         .card__icon
@@ -54,8 +54,9 @@ section.about
       
 section.instagram
   h2.instagram__title Follow me on 
-    a(href="https://www.instagram.com/ahryess/?hl=es") Instagram!
-  span.instagram__user @ahryess
+    a.instagram__link(href="https://www.instagram.com/ahryess/?hl=es") Instagram!
+  span.instagram__user
+    a(href="https://www.instagram.com/ahryess/?hl=es") @ahryess
   
   .l-flex.l-flex--column
     .card.card--instagram
@@ -106,7 +107,7 @@ section.stream
   span.stream__sub-title Lorem ipsum dolor sit.
   
   .stream__window
-    <iframe  src="https://player.twitch.tv/?channel=ahryess" width="640" height="360"  frameborder="0"   allowfullscreen="true"></iframe>
+    //- <iframe  src="https://player.twitch.tv/?channel=ahryess" width="640" height="360"  frameborder="0"   allowfullscreen="true"></iframe>
     
 section.form
   object.form__logo

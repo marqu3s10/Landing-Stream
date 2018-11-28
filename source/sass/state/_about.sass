@@ -1,6 +1,9 @@
 .card__text--full
   max-height: 500px
 
+.is-showing
+  opacity: 1
+  transform: none
 @include screen(tablet)
 
   .about
@@ -20,7 +23,7 @@
       overflow: visible
 
       &::before, &::after
-        content: ''
+        // content: ''
         width: $card-corner-size
         height: $card-corner-size
         // outline: 1px solid tomato
