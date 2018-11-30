@@ -724,6 +724,19 @@
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/source\/sass\/state\/_stream.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/css\/state\/_stream.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		}
 	},
 "hooks": [

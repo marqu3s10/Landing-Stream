@@ -1,4 +1,50 @@
-@include screen(tablet)
+// ==========================================================================
+// Animations
+// ==========================================================================
+
+
+
+.card--instagram
+  .card__title--instagram
+    @include animation(fade-in-right, 5%, 800ms)
+    &::before
+      // @include animation(fade, 0, 800ms, 200ms)
+
+  .card__image--instagram
+    @include animation(fade-in-top, 20%, 800ms, 150ms)
+
+  .card__text--instagram
+    @include animation(fade-in-top, 40%, 700ms, 1000ms)
+
+    @include screen($tablet)
+      @include animation(fade-in-right, 20%, 700ms, 150ms)
+
+  .card__more
+    @include animation(fade-in-right, 25%, 700ms, 1200ms)
+
+  .card__date
+    @include animation(fade-in-left, 25%, 700ms, 1200ms)
+
+    @include screen($tablet)
+      @include animation(fade-in-right, 30%, 700ms, 150ms)
+
+  .card__button
+    @include animation(fade-in-bottom, 80%, 700ms, 1000ms)
+
+    @include screen($tablet)
+      @include animation(fade-in-bottom, 80%, 700ms, 450ms)
+
+.card--instagram.is-showing *,
+.card--instagram.is-showing *::before,
+.card--instagram.is-showing *::after,
+  opacity: 1
+  transform: none
+
+// ==========================================================================
+// Screens
+// ==========================================================================
+
+@include screen($tablet)
   .instagram
     margin-top: 100px
 

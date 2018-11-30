@@ -7,7 +7,7 @@ section.about
   h2.about__title About me
   span.about__name - Lorem ipsum. -
   
-  .card.card--special.not-visible
+  .card.card--special
     .card__header--special
       picture
         source(media="(max-width: 767px)", srcset="images/about/about-face.jpg", width="100%")
@@ -21,10 +21,10 @@ section.about
       p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
       p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
       p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
-      .card__line
+      //- .card__line
 
   .l-flex.l-flex--card
-    .card.card--small.not-visible
+    .card.card--small
       .card__header
         h3.card__title--bg Streams
           .card__icon
@@ -33,7 +33,7 @@ section.about
         p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
         p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
         .card__line
-    .card.card--small.not-visible
+    .card.card--small
       .card__header
         h3.card__title--bg Cosplay
         .card__icon
@@ -42,7 +42,7 @@ section.about
         p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
         p.card__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.
         .card__line
-    .card.card--small.not-visible
+    .card.card--small
       .card__header
         h3.card__title--bg Others
         .card__icon
@@ -107,6 +107,11 @@ section.stream
   span.stream__sub-title Lorem ipsum dolor sit.
   
   .stream__window
+    #twitch-embed
+  
+    div(style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%")
+      iframe(src="//player.twitch.tv/?channel=ahryess&player=facebook&autoplay=false" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen allow="autoplay; encrypted-media")
+    // JavaScrip inject this:
     //- <iframe  src="https://player.twitch.tv/?channel=ahryess" width="640" height="360"  frameborder="0"   allowfullscreen="true"></iframe>
     
 section.form
@@ -118,4 +123,3 @@ section.form
     input.form__input(type="email" placeholder="E-mail")
     textarea.form__textarea(placeholder="Message")
     a.form__button(href="#") Send
-    

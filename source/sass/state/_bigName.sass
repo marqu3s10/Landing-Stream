@@ -1,4 +1,23 @@
-@include screen(mobile)
+// ==========================================================================
+// Animations
+// ==========================================================================
+
+.big-name
+  >*
+    @include delay($items:3, $nth:1, $initial: 500, $step: 250)
+  &__title
+    @include animation(fade-in-top, 40%, 700ms)
+  &__sub-title
+    @include animation(fade, 0, 700ms)
+
+  &__button
+    @include animation(fade-in-bottom, 40%, 700ms)
+
+// ==========================================================================
+// Screens
+// ==========================================================================
+
+@include screen($mobile)
   .big-name
     &__title
       font-size: em(50)
@@ -9,7 +28,7 @@
     &__button
       font-size: rem(20)
 
-@include screen(tablet)
+@include screen($tablet)
   .big-name
     background: linear-gradient(to bottom right, rgba($blue, 1),rgba($blue, .8)), url(img(hero, hero-tablet, jpg)) center right
     background-size: cover

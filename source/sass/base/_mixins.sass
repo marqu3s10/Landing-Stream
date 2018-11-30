@@ -3,16 +3,7 @@
 // ==========================================================================
 
 @mixin screen($media)
-  @if $media == mobile
-    @media only screen and (min-width: $mobile)
-      @content
-
-  @else if $media == tablet
-    @media only screen and (min-width: $tablet)
-      @content
-
-  @else if $media == laptop
-    @media only screen and (min-width: $laptop)
+    @media #{$media}
       @content
 
 
@@ -22,3 +13,37 @@
   color: $white
   border-radius: 999px
   background: $gradient-0
+
+// ==========================================================================
+// Animations
+// ==========================================================================
+
+@mixin delay($nth:1,$items:2,$initial:0,$step:100)
+	@for $i from $nth through $items
+		&:nth-child(#{$i})
+
+      // position: relative
+      z-index: calc( 100 - #{$i} )
+      transition-delay: #{$initial}ms
+		$initial: $initial + $step
+
+
+@mixin animation($name, $length, $duration, $delay: 0)
+  @if $name == fade-in-top
+    transform: translateY(-#{$length})
+
+  @else if $name == fade-in-right
+    transform: translateX(#{$length})
+
+  @else if $name == fade-in-bottom
+    transform: translateY(#{$length})
+
+  @else if $name == fade-in-left
+    transform: translateX(-#{$length})
+
+  @else
+    transform: none
+
+  transition-duration: $duration
+  transition-delay: $delay
+  opacity: 0

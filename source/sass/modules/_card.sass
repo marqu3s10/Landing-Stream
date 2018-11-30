@@ -9,17 +9,24 @@
   text-align: left
   color: $white-1
 
-  transition: 700ms
-  transform: translateX(-300px)
+  &--special
+
+    // over the small Cards
+    z-index: 500
+    position: relative
+
+  &--small
 
   &__header
     position: relative
+
   &__image
 
     &--instagram
       width: 70%
       margin: 0 auto
       display: block
+      z-index: 1
 
   &__body
     padding: em(32)
@@ -29,7 +36,8 @@
       position: relative
 
     &--instagram
-      @extend .card__body--special
+      padding: em(24) em(32)
+      position: relative
       padding: 0 em(16)
 
   &__title
@@ -60,6 +68,8 @@
       font-size: em(16)
       border-bottom: 1px solid #181066
       position: relative
+      z-index: 100
+      background: #0e0940
 
       &::before
         content: ""
@@ -69,8 +79,7 @@
         height: 30px
         border-radius: 50%
         left: 12px
-        top: 50%
-        transform: translateY(-50%)
+        top: calc(50% - 15px)
 
   &__text
     margin: em(16) 0
@@ -85,7 +94,10 @@
       font-size: rem(14)
       width: 100%
       overflow-y: auto
+      color: rgba($white-1, .8)
+
       span
+        color: $white-1
         font-weight: 600
 
   &__line
@@ -96,7 +108,7 @@
     margin: em(40) auto 0
 
   &__more
-    color: rgba($blue, .5)
+    color: rgba($white-1, .5)
     margin-top: -5px
     cursor: pointer
     display: block
@@ -105,7 +117,7 @@
 
   &__date
     float: left
-    color: rgba($blue, .5)
+    color: rgba($white-1, .5)
 
     font-size: rem(13)
 
