@@ -1,6 +1,7 @@
-
 var wScroll;
-var bigName = document.querySelectorAll(".big-name > *")
+var bigName = document.querySelectorAll(".big-name > *");
+var repeat;
+
 
 Array.prototype.forEach.call(bigName, function(el, i){
   el.classList.add('is-showing')
@@ -16,14 +17,6 @@ window.addEventListener('scroll', function(e) {
   } else if (wScroll < 80) {
     header.classList.remove("slideUp");
   }
-
-  // BigName
-  // if (wScroll) {
-  //   Array.prototype.forEach.call(bigName, function(el, i){
-  //     el.classList.add('is-showing')
-  //   });
-  // }
-
 
   // About
   var about = document.querySelector("section.about");
@@ -57,22 +50,23 @@ window.addEventListener('scroll', function(e) {
 
   // Stream
   var stream = document.querySelector(".stream")
-  var streamContainer = document.querySelector(".stream__window");
-  var streamEmbed = '<iframe  src="https://player.twitch.tv/?channel=ahryess" width="640" height="360"  frameborder="0"   allowfullscreen="true"></iframe>'
-  if(300 > stream.getBoundingClientRect().top){
+  if(400 > stream.getBoundingClientRect().top){
     stream.classList.add('is-showing');
-    // streamContainer.innerHTML = streamEmbed;
-    // return;
   }
+
+    // Lazy Load! :D
+  var streamVideo = document.querySelector( ".stream__video");
+  if(!repeat && 600 > stream.getBoundingClientRect().top){
+    var iframe = document.createElement( "iframe" );
+
+    iframe.setAttribute( "frameborder", "0" );
+    iframe.setAttribute( "allowfullscreen", "" );
+    iframe.setAttribute( "src", "https://player.twitch.tv/?channel=ahryess" );
+
+    streamVideo.innerHTML = "";
+    streamVideo.appendChild( iframe );
+    repeat = true;
+  }
+
 
 });
-
-function showDescription(element){
-  if(element.innerHTML == "...more"){
-    element.innerHTML = "...less"
-    element.previousSibling.classList.add('card__text--full');
-  } else {
-    element.innerHTML = "...more"
-    element.previousSibling.classList.remove('card__text--full');
-  }
-}
