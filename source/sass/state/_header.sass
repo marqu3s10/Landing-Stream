@@ -42,11 +42,19 @@ $items: 3
   margin-left: em(8)
   background: $purple
 
-
-
-.slideUp
+.sticky
+  background: $blue
   #nav
-    background: $blue
     padding: em(16)
     .nav__burger
       top: 16px
+
+
+@include screen($tablet)
+  .menu__link
+    &:hover
+      background: none
+      margin: 0
+
+    &:hover::after
+      opacity: 1

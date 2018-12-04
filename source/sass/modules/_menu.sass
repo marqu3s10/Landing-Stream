@@ -1,9 +1,13 @@
 .menu
   font-size: rem(20)
   transition: 200ms
-  // height: 0
-  // position: relative
   z-index: 1000
+
+  @include screen($tablet)
+    display: -webkit-flex
+    display: -ms-flex
+    display: flex
+    margin-right: em(-8)
 
   &__item
     margin: em(26) em(26) em(26) em(-8)
@@ -15,6 +19,11 @@
       &:nth-child(#{$i})
         animation-delay: $i * 80 + 100ms !important
 
+    @include screen($tablet)
+      display: block
+      transform: none
+      opacity: 1
+      margin: em(16)
   &__link
     margin: em(16) 0
     padding: em(8)
@@ -22,3 +31,18 @@
     border-radius: 12px
     white-space: nowrap
     transition: 200ms
+
+    @include screen($tablet)
+      position: relative
+
+      &::after
+        content: ''
+        left: 0
+        top: 0
+        width: 100%
+        height: 100%
+        border-radius: inherit
+        z-index: -1
+        transition: 300ms
+        background: $gradient-0
+        opacity: 0

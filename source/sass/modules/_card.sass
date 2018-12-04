@@ -4,21 +4,48 @@
   margin: em(18) auto
   overflow: hidden
   border-radius: 17px
-  box-shadow: 0 7px 30px rgba(#000000,.2)
-  background: #0e0940
+  box-shadow: 0 7px 30px rgba($black,.2)
+  background: $dark-blue
   text-align: left
   color: $white-1
 
-  &--special
+  @include screen($tablet)
+    margin: 0 em(4)
+    max-width: 900px
 
+  &--special
     // over the small Cards
     z-index: 500
     position: relative
 
+    @include screen($tablet)
+      display: flex
+      margin: 0 auto em(36)
+
   &--small
+    @include screen($tablet)
+      flex: 1 1 calc(33% - 9px)
+      max-width: 250px
+
+  &--instagram
+    @include screen($tablet)
+      position: relative
+      height: 450px
+      width: 100%
+      display: flex
+      flex-direction: column
+      margin: em(32) em(8)
 
   &__header
     position: relative
+
+    &--special
+      @include screen($tablet)
+        flex: 0 1 40%
+
+    &--instagram
+      @include screen($tablet)
+        padding: 0 0 0 64%
 
   &__image
 
@@ -28,17 +55,46 @@
       display: block
       z-index: 1
 
+      @include screen($tablet)
+        position: absolute
+        top: 0
+        left: 0
+        width: 64%
+        height: auto
+        
+    &--special
+      @include screen($tablet)
+        height: auto
+        width: 100%
+        vertical-align: middle
+
   &__body
     padding: em(32)
+
+    @include screen($tablet)
+      padding: em(16)
 
     &--special
       padding: em(24) em(32)
       position: relative
 
+      @include screen($tablet)
+        padding: em(30)
+        flex: 1 1 60%
+        display: flex
+        flex-direction: column
+
     &--instagram
       padding: em(24) em(32)
       position: relative
       padding: 0 em(16)
+
+      @include screen($tablet)
+        padding: 0 0 0 64%
+        display: flex
+        flex-direction: column
+        height: 100%
+        padding: em(16) em(16) em(16) calc(64% + 16px)
 
   &__title
     margin: em(16) 0
@@ -53,7 +109,7 @@
     &--bg
       @extend .card__title
       margin: 0
-      padding: em(24) rem(32)
+      padding: em(20) rem(32)
       background: $gradient-0
       color: $white
       border-radius: 17px 17px 0 0
@@ -66,10 +122,10 @@
       color: currentColor
       font-weight: 400
       font-size: em(16)
-      border-bottom: 1px solid #181066
+      border-bottom: 1px solid transparentize($pink, .8)
       position: relative
       z-index: 100
-      background: #0e0940
+      background: $dark-blue
 
       &::before
         content: ""
@@ -97,8 +153,12 @@
       color: rgba($white-1, .8)
 
       span
-        color: $white-1
+        color: $pink
         font-weight: 600
+
+      @include screen($tablet)
+        flex-grow: 1
+        max-height: none
 
   &__line
     width: 100px
@@ -115,11 +175,16 @@
     float: right
     font-size: rem(13)
 
+    @include screen($tablet)
+      display: none
+
   &__date
     float: left
     color: rgba($white-1, .5)
-
     font-size: rem(13)
+
+    @include screen($tablet)
+      margin-bottom: em(16)
 
   &__button
     @extend %button
@@ -130,4 +195,5 @@
     margin: em(52) 0 em(16)
     padding: em(16)
 
-  &__icon
+    @include screen($tablet)
+      margin: 0

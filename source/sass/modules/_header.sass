@@ -11,6 +11,15 @@
     position: absolute
     transition: 400ms
 
+    @include screen($tablet)
+      transform: none
+      width: auto
+      position: static
+      margin-left: auto
+      background: none
+      padding: 0 em(16)
+
+
     &-line
       width: 25px
       height: 4px
@@ -21,12 +30,11 @@
       z-index: 400
       transition: 400ms 100ms
 
-  &__show
-    // border-radius: 30px
-    // overflow: hidden
+      @include screen($tablet)
+        display: none
+
   &__title
     margin-left: em(7)
-    // margin: 0 auto
+
   &__logo
     width: 70px
-    // height: 100%

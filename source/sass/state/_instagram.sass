@@ -34,19 +34,10 @@
     @include screen($tablet)
       @include animation(fade-in-bottom, 80%, 700ms, 450ms)
 
-.card--instagram.is-showing *,
-.card--instagram.is-showing *::before,
-.card--instagram.is-showing *::after,
+.card--instagram.is-showing *
   opacity: 1
   transform: none
 
 // ==========================================================================
 // Screens
 // ==========================================================================
-
-@include screen($tablet)
-  .instagram
-    margin-top: 100px
-
-    &__title
-      font-size: rem(45)

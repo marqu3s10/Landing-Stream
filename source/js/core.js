@@ -12,10 +12,10 @@ window.addEventListener('scroll', function(e) {
 
   // Sticky nav
   if (wScroll > 80) {
-    header.classList.add("slideUp");
+    header.classList.add("sticky");
 
   } else if (wScroll < 80) {
-    header.classList.remove("slideUp");
+    header.classList.remove("sticky");
   }
 
   // About

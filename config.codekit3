@@ -225,7 +225,7 @@
 	"\/source\/images\/svg\/joystick.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/images\/svg\/joystick.svg",
 		"oF": 0,
 		"opt": 0,
@@ -669,6 +669,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/build\/css\/state\/_bigName.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/sass\/state\/_card.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/css\/state\/_card.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
