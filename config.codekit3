@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26330",
 "files": {
+	"\/Archive.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/Archive.zip",
+		"oF": 0
+		},
 	"\/build": {
 		"ft": 65536,
 		"oA": 1,
@@ -94,13 +101,13 @@
 		},
 	"\/source\/images\/about\/about-face.jpeg": {
 		"ft": 16384,
-		"iS": 37965,
+		"iS": 36797,
 		"oA": 0,
 		"oAP": "\/build\/images\/about\/about-face.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 48
+		"q": 100
 		},
 	"\/source\/images\/about\/about-mobile.jpeg": {
 		"ft": 16384,
@@ -112,15 +119,15 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/images\/hero\/hero-laptop.jpg": {
+	"\/source\/images\/hero\/hero-laptop.jpeg": {
 		"ft": 16384,
-		"iS": 61758,
+		"iS": 494315,
 		"oA": 0,
 		"oAP": "\/build\/images\/hero\/hero-laptop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 68
 		},
 	"\/source\/images\/hero\/hero-mobile.jpg": {
 		"ft": 16384,
@@ -760,7 +767,7 @@
 	"creationDate": 557071082,
 	"displayValue": "Landing Stream",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-obama",
+	"iconImageName": "meme-punDog",
 	"lastBuiltDate": 564603749
 	},
 "projectSettings": {

@@ -1,0 +1,19 @@
+.footer
+  padding: em(32) em(16)
+  display: -webkit-flex
+  display: -ms-flex
+  display: flex
+  flex-direction: column
+  align-items: center
+  color: $white-1
+
+  @include screen($tablet)
+    max-width: 1000px
+    margin: 0 auto
+    flex-direction: row
+    justify-content: space-between
+  &__rights, &__developed
+    margin: em(8) em(16)
+
+  &__portfolio
+    color: $pink

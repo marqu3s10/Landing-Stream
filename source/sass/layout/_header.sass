@@ -13,10 +13,17 @@
   max-width: 1000px
   margin: 0 auto
 
+#l-footer
+  background: $darker-blue
+
+
 .l-flex
   display: flex
   margin: 0 auto
   flex-direction: column
+
+  &--card
+    margin-bottom: -120px
 
   @include screen($tablet)
     flex-direction: row
@@ -25,8 +32,6 @@
     flex-wrap: wrap
     max-width: 900px
 
-    &--card
-      margin-bottom: -120px
 
     &--column
       flex-direction: column

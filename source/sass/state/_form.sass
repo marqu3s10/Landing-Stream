@@ -1,0 +1,17 @@
+// ==========================================================================
+// Animations
+// ==========================================================================
+
+.form
+  &__inner
+    @include animation(fade-in-left, 20%, 700ms)
+
+    & > *
+      @include animation(fade-in-right, 20%, 500ms)
+      @include delay($items:5, $nth:1, $initial: 700, $step: 150)
+
+
+.form.is-showing,
+.form.is-showing *
+  opacity: 1
+  transform: none

@@ -8,18 +8,23 @@
   align-items: center
   text-align: center
   padding: em(16)
+
   @include screen($tablet)
     background: linear-gradient(to bottom right, rgba($blue, 1),rgba($blue, .8)), url(img(hero, hero-tablet, jpg)) center right
     background-size: cover
     height: 700px
     font-size: rem(24)
 
+  @include screen($laptop)
+    background: linear-gradient(to bottom right, rgba($blue, 1),rgba($blue, .8)), url(img(hero, hero-laptop, jpg)) center right
+    background-size: cover
   &__title
     margin: em(3) 0
     font-size: 12vw
 
     @include screen($mobile)
       font-size: em(50)
+
   &__sub-title
     font-size: 4.5vw
     margin: em(3) 0

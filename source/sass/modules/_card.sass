@@ -40,7 +40,11 @@
     position: relative
 
     &--special
+      height: 200px
+      overflow: hidden
+
       @include screen($tablet)
+        height: auto
         flex: 0 1 40%
 
     &--instagram
@@ -61,11 +65,11 @@
         left: 0
         width: 64%
         height: auto
-        
+
     &--special
+      width: 100%
       @include screen($tablet)
         height: auto
-        width: 100%
         vertical-align: middle
 
   &__body

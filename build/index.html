@@ -18,9 +18,9 @@
           <div class="nav__burger-line"></div>
           <div class="nav__burger-line"></div>
           <ul class="nav__menu menu">
-            <li class="menu__item"><a href="#" class="menu__link">About</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Follow me</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Streaming</a></li>
+            <li class="menu__item"><a data-link="about" data-space="50" class="menu__link">About</a></li>
+            <li class="menu__item"><a data-link="instagram" data-space="80" class="menu__link">Instagram</a></li>
+            <li class="menu__item"><a data-link="streaming" data-space="150" class="menu__link">Streaming</a></li>
           </ul>
         </label>
       </nav>
@@ -29,7 +29,7 @@
       <h1 class="big-name__title">Lorem </h1>
       <p class="big-name__sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a href="#" class="big-name__button">View in Twitch</a>
     </section>
-    <section class="about">
+    <section id="about" class="about">
       <h2 class="about__title">About me</h2><span class="about__name">- Lorem ipsum. -</span>
       <div class="card card--special">
         <div class="card__header--special">
@@ -316,7 +316,7 @@
         </div>
       </div>
     </section>
-    <section class="instagram">
+    <section id="instagram" class="instagram">
       <h2 class="instagram__title">Follow me on <a href="https://www.instagram.com/ahryess/?hl=es" class="instagram__link">Instagram!</a></h2><span class="instagram__user"><a href="https://www.instagram.com/ahryess/?hl=es">@ahryess</a></span>
       <div class="l-flex l-flex--column">
         <div class="card card--instagram">
@@ -345,7 +345,7 @@
         </div>
       </div>
     </section>
-    <section class="stream">
+    <section id="streaming" class="stream">
       <h2 class="stream__title">Live</h2><span class="stream__sub-title">Lorem ipsum dolor sit.</span>
       <div class="stream__video"></div>
     </section>
@@ -360,7 +360,9 @@
         <textarea placeholder="Message" class="form__textarea"></textarea><a href="#" class="form__button">Send</a>
       </form>
     </section>
-    <footer id="footer"></footer>
+    <footer id="l-footer">
+      <div class="footer"><span class="footer__rights">Ahryess © 2018</span><span class="footer__developed">Made with pride by <a href="https://alvaromarques.com" class="footer__portfolio">Álvaro Marqués</a></span></div>
+    </footer>
     <script src="js/core-min.js"></script>
   </body>
 </html>

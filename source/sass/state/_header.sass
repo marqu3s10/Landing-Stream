@@ -1,35 +1,37 @@
 // ==========================================================================
 // Nav
 // ==========================================================================
-$items: 3
+@include screen($max-mobile)
 
-@keyframes slide-left
-  100%
+  $items: 3
+
+  @keyframes slide-left
+    100%
+      transform: translateX(em(40))
+      padding: em(24)
+
+  #nav__show:checked ~ .nav__burger
     transform: translateX(em(40))
     padding: em(24)
 
-#nav__show:checked ~ .nav__burger
-  transform: translateX(em(40))
-  padding: em(24)
 
+  @keyframes fade-in
+    0%
+      opacity: 0
+      transform: translate(50px)
 
-@keyframes fade-in
-  0%
-    opacity: 0
-    transform: translate(50px)
+    100%
+      opacity: 1
+      transform: translateX(0px)
 
-  100%
-    opacity: 1
-    transform: translateX(0px)
+  #nav__show:checked ~ .nav__burger .menu__item
+    display: block
+    animation: fade-in 200ms ease-out forwards
 
-#nav__show:checked ~ .nav__burger .menu__item
-  display: block
-  animation: fade-in 200ms ease-out forwards
+  #nav__show:checked ~ .nav__burger .menu
+    height: calc(#{$items} * 50px)
 
-#nav__show:checked ~ .nav__burger .menu
-  height: calc(#{$items} * 50px)
-
-#nav__show:checked ~ .nav__burger
+  #nav__show:checked ~ .nav__burger
     .nav__burger-line
       &:nth-child(1)
         transform: translateY(em(8)) rotate(45deg)
@@ -38,9 +40,21 @@ $items: 3
       &:nth-child(3)
         transform: translateY(em(-8)) rotate(-45deg)
 
-.menu__link:hover
-  margin-left: em(8)
-  background: $purple
+.menu__link
+  &:hover, &--is-active
+    margin-left: em(8)
+    @include screen($tablet)
+      margin-left: 0
+
+  &:hover
+    background: transparentize($blue, .3)
+    @include screen($tablet)
+      background: transparentize($dark-blue, .5)
+
+  &--is-active, &--is-active:hover
+    background: $blue
+    @include screen($tablet)
+      background: $dark-blue
 
 .sticky
   background: $blue
@@ -51,10 +65,16 @@ $items: 3
 
 
 @include screen($tablet)
-  .menu__link
-    &:hover
-      background: none
-      margin: 0
 
-    &:hover::after
-      opacity: 1
+  // .menu__link
+  //   &:hover
+  //     background: none
+  //     margin: 0
+  //
+  //   &--is-active
+  //     background: none
+  //     margin-left: 0
+  //
+  //   &:hover::after,
+  //   &--is-active::after
+  //     opacity: 1
