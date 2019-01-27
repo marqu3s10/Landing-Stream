@@ -1,22 +1,22 @@
 .card
-  max-width: 350px
-  width: 100%
-  margin: em(18) auto
-  overflow: hidden
-  border-radius: 17px
-  box-shadow: 0 7px 30px rgba($black,.2)
   background: $dark-blue
-  text-align: left
+  box-shadow: 0 7px 30px rgba($black,.2)
   color: $white-1
+  margin: em(18) auto
+  border-radius: 17px
+  overflow: hidden
+  text-align: left
+  width: 100%
+  max-width: 350px
 
   @include screen($tablet)
     margin: 0 em(4)
     max-width: 900px
 
   &--special
-    // over the small Cards
-    z-index: 500
     position: relative
+    z-index: 500
+    // over the small Cards
 
     @include screen($tablet)
       display: flex
@@ -40,8 +40,8 @@
     position: relative
 
     &--special
-      height: 200px
       overflow: hidden
+      height: 200px
 
       @include screen($tablet)
         height: auto
@@ -54,9 +54,9 @@
   &__image
 
     &--instagram
-      width: 70%
-      margin: 0 auto
       display: block
+      margin: 0 auto
+      width: 70%
       z-index: 1
 
       @include screen($tablet)
@@ -79,8 +79,8 @@
       padding: em(16)
 
     &--special
-      padding: em(24) em(32)
       position: relative
+      padding: em(24) em(32)
 
       @include screen($tablet)
         padding: em(30)
@@ -89,20 +89,20 @@
         flex-direction: column
 
     &--instagram
-      padding: em(24) em(32)
       position: relative
+      padding: em(24) em(32)
       padding: 0 em(16)
 
       @include screen($tablet)
         padding: 0 0 0 64%
         display: flex
         flex-direction: column
-        height: 100%
+        flex: 1
         padding: em(16) em(16) em(16) calc(64% + 16px)
 
   &__title
-    margin: em(16) 0
     font-size: rem(22)
+    margin: em(16) 0
 
     // poner special title en pink
 
@@ -112,80 +112,80 @@
 
     &--bg
       @extend .card__title
-      margin: 0
-      padding: em(20) rem(32)
       background: $gradient-0
       color: $white
+      padding: em(20) rem(32)
+      margin: 0
       border-radius: 17px 17px 0 0
 
 
     &--instagram
       @extend .card__title
-      margin: 0
-      padding: em(16) em(16) em(16) em(55)
-      color: currentColor
-      font-weight: 400
-      font-size: em(16)
-      border-bottom: 1px solid transparentize($pink, .8)
       position: relative
-      z-index: 100
+      font-size: em(16)
+      font-weight: 400
       background: $dark-blue
+      color: currentColor
+      padding: em(16) em(16) em(16) em(55)
+      margin: 0
+      border-bottom: 1px solid transparentize($pink, .8)
+      z-index: 100
 
       &::before
         content: ""
+        top: calc(50% - 15px)
+        left: 12px
         background: url(../images/instagram/profile.jpg) center no-repeat
         background-size: cover
+        border-radius: 50%
         width: 30px
         height: 30px
-        border-radius: 50%
-        left: 12px
-        top: calc(50% - 15px)
 
   &__text
-    margin: em(16) 0
     font-size: rem(16)
     color: currentColor
+    margin: em(16) 0
     line-height: rem(20)
     transition-duration: 600ms
 
     &--instagram
       @extend .card__text
-      max-height: 100px
       font-size: rem(14)
-      width: 100%
-      overflow-y: auto
       color: rgba($white-1, .8)
+      overflow-y: auto
+      width: 100%
+      max-height: 100px
 
       span
-        color: $pink
         font-weight: 600
+        color: $pink
 
       @include screen($tablet)
         flex-grow: 1
         max-height: none
 
   &__line
-    width: 100px
-    height: 5px
-    border-radius: 4px
     background: $gradient-0
     margin: em(40) auto 0
+    border-radius: 4px
+    width: 100px
+    height: 5px
 
   &__more
-    color: rgba($white-1, .5)
-    margin-top: -5px
-    cursor: pointer
     display: block
-    float: right
     font-size: rem(13)
+    color: rgba($white-1, .5)
+    cursor: pointer
+    margin-top: -5px
+    float: right
 
     @include screen($tablet)
       display: none
 
   &__date
-    float: left
-    color: rgba($white-1, .5)
     font-size: rem(13)
+    color: rgba($white-1, .5)
+    float: left
 
     @include screen($tablet)
       margin-bottom: em(16)
@@ -193,11 +193,11 @@
   &__button
     @extend %button
     display: block
-    text-align: center
+    padding: em(16)
+    margin: em(52) 0 em(16)
     border-radius: 9px
     clear: both
-    margin: em(52) 0 em(16)
-    padding: em(16)
+    text-align: center
 
     @include screen($tablet)
       margin: 0

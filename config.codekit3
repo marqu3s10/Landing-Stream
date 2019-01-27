@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,381 +7,388 @@
 		"uuidString": "4EBC3F82-0EF2-4CA6-B1C8-CE3C0295718D"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "28905",
 "files": {
-	"\/Archive.zip": {
+	"/Archive.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/Archive.zip",
+		"oAP": "/build/Archive.zip",
 		"oF": 0
 		},
-	"\/build": {
+	"/build": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/build\/build",
+		"oAP": "/build/build",
 		"oF": 0
 		},
-	"\/source\/fonts\/Open_Sans\/LICENSE.txt": {
+	"/source/fonts/Open_Sans/LICENSE.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/Open_Sans\/LICENSE.txt",
+		"oAP": "/build/fonts/Open_Sans/LICENSE.txt",
 		"oF": 0
 		},
-	"\/source\/fonts\/Open_Sans\/OpenSans-Bold.ttf": {
+	"/source/fonts/Open_Sans/OpenSans-Bold.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/Open_Sans\/OpenSans-Bold.ttf",
+		"oAP": "/build/fonts/Open_Sans/OpenSans-Bold.ttf",
 		"oF": 0
 		},
-	"\/source\/fonts\/Open_Sans\/OpenSans-Light.ttf": {
+	"/source/fonts/Open_Sans/OpenSans-Light.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/Open_Sans\/OpenSans-Light.ttf",
+		"oAP": "/build/fonts/Open_Sans/OpenSans-Light.ttf",
 		"oF": 0
 		},
-	"\/source\/fonts\/Open_Sans\/OpenSans-Regular.ttf": {
+	"/source/fonts/Open_Sans/OpenSans-Regular.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/Open_Sans\/OpenSans-Regular.ttf",
+		"oAP": "/build/fonts/Open_Sans/OpenSans-Regular.ttf",
 		"oF": 0
 		},
-	"\/source\/fonts\/Open_Sans\/OpenSans-SemiBold.ttf": {
+	"/source/fonts/Open_Sans/OpenSans-SemiBold.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/Open_Sans\/OpenSans-SemiBold.ttf",
+		"oAP": "/build/fonts/Open_Sans/OpenSans-SemiBold.ttf",
 		"oF": 0
 		},
-	"\/source\/fonts\/Roboto\/LICENSE.txt": {
+	"/source/fonts/Roboto/LICENSE.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/Roboto\/LICENSE.txt",
+		"oAP": "/build/fonts/Roboto/LICENSE.txt",
 		"oF": 0
 		},
-	"\/source\/fonts\/Roboto\/Roboto-Bold.ttf": {
+	"/source/fonts/Roboto/Roboto-Bold.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/Roboto\/Roboto-Bold.ttf",
+		"oAP": "/build/fonts/Roboto/Roboto-Bold.ttf",
 		"oF": 0
 		},
-	"\/source\/fonts\/Roboto\/Roboto-Light.ttf": {
+	"/source/fonts/Roboto/Roboto-Light.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/Roboto\/Roboto-Light.ttf",
+		"oAP": "/build/fonts/Roboto/Roboto-Light.ttf",
 		"oF": 0
 		},
-	"\/source\/fonts\/Roboto\/Roboto-Medium.ttf": {
+	"/source/fonts/Roboto/Roboto-Medium.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/Roboto\/Roboto-Medium.ttf",
+		"oAP": "/build/fonts/Roboto/Roboto-Medium.ttf",
 		"oF": 0
 		},
-	"\/source\/fonts\/Roboto\/Roboto-Regular.ttf": {
+	"/source/fonts/Roboto/Roboto-Regular.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/Roboto\/Roboto-Regular.ttf",
+		"oAP": "/build/fonts/Roboto/Roboto-Regular.ttf",
 		"oF": 0
 		},
-	"\/source\/fonts\/Roboto\/Roboto-Thin.ttf": {
+	"/source/fonts/Roboto/Roboto-Thin.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/Roboto\/Roboto-Thin.ttf",
+		"oAP": "/build/fonts/Roboto/Roboto-Thin.ttf",
 		"oF": 0
 		},
-	"\/source\/images\/about\/about-face.jpeg": {
+	"/source/images/about/about-face.jpeg": {
 		"ft": 16384,
 		"iS": 36797,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/images\/about\/about-face.jpg",
+		"oAP": "/build/images/about/about-face.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/images\/about\/about-mobile.jpeg": {
+	"/source/images/about/about-mobile.jpeg": {
 		"ft": 16384,
 		"iS": 122141,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/images\/about\/about-mobile.jpg",
+		"oAP": "/build/images/about/about-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/images\/hero\/hero-laptop.jpeg": {
+	"/source/images/hero/hero-laptop.jpeg": {
 		"ft": 16384,
 		"iS": 494315,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/images\/hero\/hero-laptop.jpg",
+		"oAP": "/build/images/hero/hero-laptop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 68
 		},
-	"\/source\/images\/hero\/hero-mobile.jpg": {
+	"/source/images/hero/hero-mobile.jpg": {
 		"ft": 16384,
 		"iS": 46136,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/images\/hero\/hero-mobile.jpg",
+		"oAP": "/build/images/hero/hero-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/images\/hero\/hero-tablet.jpg": {
+	"/source/images/hero/hero-tablet.jpg": {
 		"ft": 16384,
 		"iS": 61758,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/images\/hero\/hero-tablet.jpg",
+		"oAP": "/build/images/hero/hero-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/images\/instagram\/example1.jpg": {
+	"/source/images/instagram/example1.jpg": {
 		"ft": 16384,
 		"iS": 46882,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/images\/instagram\/example1.jpg",
+		"oAP": "/build/images/instagram/example1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/images\/instagram\/profile.jpg": {
+	"/source/images/instagram/profile.jpg": {
 		"ft": 16384,
 		"iS": 7839,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/images\/instagram\/profile.jpg",
+		"oAP": "/build/images/instagram/profile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/images\/svg\/console.svg": {
+	"/source/images/svg/console.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/build\/images\/svg\/console.svg",
+		"oAP": "/build/images/svg/console.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/svg\/corner-card.svg": {
+	"/source/images/svg/corner-card.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/images\/svg\/corner-card.svg",
+		"oAP": "/build/images/svg/corner-card.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/svg\/cosplayer.svg": {
+	"/source/images/svg/cosplayer.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/build\/images\/svg\/cosplayer.svg",
+		"oAP": "/build/images/svg/cosplayer.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/svg\/formUI.svg": {
+	"/source/images/svg/formUI.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/images\/svg\/formUI.svg",
+		"oAP": "/build/images/svg/formUI.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/svg\/headphones.svg": {
+	"/source/images/svg/headphones.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/images\/svg\/headphones.svg",
+		"oAP": "/build/images/svg/headphones.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/svg\/iconsStream.svg": {
+	"/source/images/svg/iconsStream.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/images\/svg\/iconsStream.svg",
+		"oAP": "/build/images/svg/iconsStream.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/svg\/joystick.svg": {
+	"/source/images/svg/joystick.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/build\/images\/svg\/joystick.svg",
+		"oAP": "/build/images/svg/joystick.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/svg\/Logo.svg": {
+	"/source/images/svg/Logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/build\/images\/svg\/Logo.svg",
+		"oAP": "/build/images/svg/Logo.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/svg\/mouse.svg": {
+	"/source/images/svg/mouse.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/build\/images\/svg\/mouse.svg",
+		"oAP": "/build/images/svg/mouse.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/svg\/pacman-ghost.svg": {
+	"/source/images/svg/pacman-ghost.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/images\/svg\/pacman-ghost.svg",
+		"oAP": "/build/images/svg/pacman-ghost.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/svg\/pacman.svg": {
+	"/source/images/svg/pacman.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/images\/svg\/pacman.svg",
+		"oAP": "/build/images/svg/pacman.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/svg\/triangles.svg": {
+	"/source/images/svg/triangles.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/images\/svg\/triangles.svg",
+		"oAP": "/build/images/svg/triangles.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/svg\/wave.svg": {
+	"/source/images/svg/wave.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/images\/svg\/wave.svg",
+		"oAP": "/build/images/svg/wave.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/jade\/about\/content.jade": {
+	"/source/jade/about/content.jade": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/.\/about\/content.html",
+		"oAP": "/build/./about/content.html",
 		"oF": 1,
 		"oS": 0
 		},
-	"\/source\/jade\/about\/index.jade": {
+	"/source/jade/about/index.jade": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/build\/.\/about\/index.html",
+		"oAP": "/build/./about/index.html",
 		"oF": 1,
 		"oS": 0
 		},
-	"\/source\/jade\/content.jade": {
+	"/source/jade/content.jade": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/.\/content.html",
+		"oAP": "/build/./content.html",
 		"oF": 1,
 		"oS": 0
 		},
-	"\/source\/jade\/index.jade": {
+	"/source/jade/index.jade": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/build\/.\/index.html",
+		"oAP": "/build/./index.html",
 		"oF": 3,
 		"oS": 0
 		},
-	"\/source\/jade\/layout\/footer.jade": {
+	"/source/jade/layout/footer.jade": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/.\/layout\/footer.html",
+		"oAP": "/build/./layout/footer.html",
 		"oF": 1,
 		"oS": 0
 		},
-	"\/source\/jade\/layout\/head.jade": {
+	"/source/jade/layout/head.jade": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/.\/layout\/head.html",
+		"oAP": "/build/./layout/head.html",
 		"oF": 1,
 		"oS": 0
 		},
-	"\/source\/jade\/layout\/header.jade": {
+	"/source/jade/layout/header.jade": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/.\/layout\/header.html",
+		"oAP": "/build/./layout/header.html",
 		"oF": 1,
 		"oS": 0
 		},
-	"\/source\/jade\/modules\/card.jade": {
+	"/source/jade/modules/card.jade": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/.\/modules\/card.html",
+		"oAP": "/build/./modules/card.html",
 		"oF": 1,
 		"oS": 0
 		},
-	"\/source\/js\/core.js": {
+	"/source/js/core.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/js\/core-min.js",
+		"oAP": "/build/js/core-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/source\/sass\/base\/_base.sass": {
+	"/source/sass/base/_base.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -389,12 +396,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/base\/_base.css",
+		"oAP": "/build/css/base/_base.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/base\/_functions.sass": {
+	"/source/sass/base/_functions.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -402,12 +409,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/base\/_functions.css",
+		"oAP": "/build/css/base/_functions.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/base\/_index.sass": {
+	"/source/sass/base/_index.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -415,12 +422,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/base\/_index.css",
+		"oAP": "/build/css/base/_index.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/base\/_mixins.sass": {
+	"/source/sass/base/_mixins.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -428,12 +435,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/base\/_mixins.css",
+		"oAP": "/build/css/base/_mixins.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/base\/_vars.sass": {
+	"/source/sass/base/_vars.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -441,12 +448,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/base\/_vars.css",
+		"oAP": "/build/css/base/_vars.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/index.sass": {
+	"/source/sass/index.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -454,12 +461,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/build\/css\/index.css",
+		"oAP": "/build/css/index.css",
 		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/sass\/layout\/_card.sass": {
+	"/source/sass/layout/_card.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -467,12 +474,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/layout\/_card.css",
+		"oAP": "/build/css/layout/_card.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/layout\/_header.sass": {
+	"/source/sass/layout/_header.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -480,12 +487,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/layout\/_header.css",
+		"oAP": "/build/css/layout/_header.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/layout\/_index.sass": {
+	"/source/sass/layout/_index.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -493,12 +500,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/layout\/_index.css",
+		"oAP": "/build/css/layout/_index.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/modules\/_about.sass": {
+	"/source/sass/modules/_about.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -506,12 +513,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/modules\/_about.css",
+		"oAP": "/build/css/modules/_about.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/modules\/_bigName.sass": {
+	"/source/sass/modules/_bigName.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -519,12 +526,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/modules\/_bigName.css",
+		"oAP": "/build/css/modules/_bigName.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/modules\/_card.sass": {
+	"/source/sass/modules/_card.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -532,12 +539,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/modules\/_card.css",
+		"oAP": "/build/css/modules/_card.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/modules\/_colors.sass": {
+	"/source/sass/modules/_colors.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -545,12 +552,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/modules\/_colors.css",
+		"oAP": "/build/css/modules/_colors.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/modules\/_footer.sass": {
+	"/source/sass/modules/_footer.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -558,12 +565,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/modules\/_footer.css",
+		"oAP": "/build/css/modules/_footer.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/modules\/_form.sass": {
+	"/source/sass/modules/_form.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -571,12 +578,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/modules\/_form.css",
+		"oAP": "/build/css/modules/_form.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/modules\/_header.sass": {
+	"/source/sass/modules/_header.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -584,12 +591,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/modules\/_header.css",
+		"oAP": "/build/css/modules/_header.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/modules\/_index.sass": {
+	"/source/sass/modules/_index.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -597,12 +604,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/modules\/_index.css",
+		"oAP": "/build/css/modules/_index.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/modules\/_instagram.sass": {
+	"/source/sass/modules/_instagram.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -610,12 +617,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/modules\/_instagram.css",
+		"oAP": "/build/css/modules/_instagram.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/modules\/_menu.sass": {
+	"/source/sass/modules/_menu.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -623,12 +630,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/modules\/_menu.css",
+		"oAP": "/build/css/modules/_menu.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/modules\/_stream.sass": {
+	"/source/sass/modules/_stream.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -636,12 +643,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/modules\/_stream.css",
+		"oAP": "/build/css/modules/_stream.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/shame\/_shame.sass": {
+	"/source/sass/shame/_shame.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -649,12 +656,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/shame\/_shame.css",
+		"oAP": "/build/css/shame/_shame.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/state\/_about.sass": {
+	"/source/sass/state/_about.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -662,12 +669,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/state\/_about.css",
+		"oAP": "/build/css/state/_about.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/state\/_bigName.sass": {
+	"/source/sass/state/_bigName.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -675,12 +682,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/state\/_bigName.css",
+		"oAP": "/build/css/state/_bigName.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/state\/_card.sass": {
+	"/source/sass/state/_card.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -688,12 +695,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/state\/_card.css",
+		"oAP": "/build/css/state/_card.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/state\/_form.sass": {
+	"/source/sass/state/_form.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -701,12 +708,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/state\/_form.css",
+		"oAP": "/build/css/state/_form.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/state\/_header.sass": {
+	"/source/sass/state/_header.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -714,12 +721,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/state\/_header.css",
+		"oAP": "/build/css/state/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/state\/_instagram.sass": {
+	"/source/sass/state/_instagram.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -727,12 +734,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/state\/_instagram.css",
+		"oAP": "/build/css/state/_instagram.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/state\/_state.sass": {
+	"/source/sass/state/_state.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -740,12 +747,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/state\/_state.css",
+		"oAP": "/build/css/state/_state.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/sass\/state\/_stream.sass": {
+	"/source/sass/state/_stream.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -753,7 +760,7 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/state\/_stream.css",
+		"oAP": "/build/css/state/_stream.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -768,6 +775,7 @@
 	"displayValue": "Landing Stream",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-punDog",
+	"iconImageWasSetByUser": 0,
 	"lastBuiltDate": 564603749
 	},
 "projectSettings": {
@@ -775,141 +783,94 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -921,7 +882,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -933,7 +915,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -969,53 +969,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -1024,6 +1017,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -1381,6 +1375,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -1392,6 +1390,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -1437,6 +1439,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -1455,10 +1461,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -1657,9 +1659,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -2013,6 +2019,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -2041,6 +2051,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -2048,6 +2062,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -2103,7 +2121,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -2163,7 +2181,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -2558,7 +2576,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -2571,12 +2588,13 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
@@ -2608,19 +2626,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -2667,7 +2685,7 @@
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "jade",
 		"autoOutputPathReplace1": "jade",
-		"autoOutputPathReplace2": ".\/",
+		"autoOutputPathReplace2": "./",
 		"autoOutputPathStyle": 3,
 		"compileDebug": 1,
 		"outputStyle": 0,
@@ -2676,7 +2694,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 3,
@@ -2705,7 +2723,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -2729,36 +2747,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2766,11 +2818,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2794,6 +2846,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -2810,7 +2866,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2818,20 +2882,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -2846,6 +2922,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -2854,12 +2938,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -2870,11 +2962,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2886,23 +2986,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2914,13 +3042,21 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/build"
+	"websiteRelativeRoot": "/build"
 	},
 "settingsFileVersion": "3"
 }
