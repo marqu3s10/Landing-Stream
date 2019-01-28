@@ -50,6 +50,20 @@
 		"oAP": "/build/fonts/Open_Sans/OpenSans-SemiBold.ttf",
 		"oF": 0
 		},
+	"/source/fonts/Raleway/OFL.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/fonts/Raleway/OFL.txt",
+		"oF": 0
+		},
+	"/source/fonts/Raleway/Raleway-ExtraBold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/fonts/Raleway/Raleway-ExtraBold.ttf",
+		"oF": 0
+		},
 	"/source/fonts/Roboto/LICENSE.txt": {
 		"cB": 0,
 		"ft": 8192,

@@ -18,6 +18,33 @@
     // color: $dark-blue !important
 
 // ==========================================================================
+// Fonts
+// ==========================================================================
+
+
+@mixin font-face($folder__name, $name, $path: #{$font__path} , $weight: null, $style: null, $ttf: false, $eot: false, $woff: false, $svg: false)
+  @font-face
+    font-family: $folder__name
+
+    @if $eot
+      src: url( $path + $folder__name + '/' + $name + '.eot')
+      src: url( $path + $folder__name + '/' + $name + '.eot?#iefix') format('embedded-opentype')
+
+    @if $woff
+      src: url( $path + $folder__name + '/' + $name + '.woff') format('woff')
+
+    @if $ttf
+      src: url( $path + $folder__name + '/' + $name + '.ttf') format('truetype')
+
+    @if $svg
+      src: url($path + $folder__name + '/' + $name + '.svg?#webfont') format('svg')
+
+    font-weight: $weight
+    font-style: $style
+
+
+
+// ==========================================================================
 // Animations
 // ==========================================================================
 
